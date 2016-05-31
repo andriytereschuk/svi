@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "browser-sync": "latest",
+    "cssnano": "^3.6.2",
+    "gulp": "latest",
+    "gulp-iconfont": "latest",
+    "gulp-iconfont-css": "latest",
+    "gulp-postcss": "latest",
+    "postcss-cssnext": "latest",
+    "postcss-short": "^1.4.0"
+  }
+}
