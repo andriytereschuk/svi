@@ -1,18 +1,35 @@
-* {
-    margin: 0;
-}
-
-html, body {
-   height: 100%;
-   width: 100%;
-}
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-    background-color: peru;
+    color: #666;
+    background-color: #eee;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Merriweather', serif;
 }
 
 header {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    height: 60px;
+    background-color: #fff;
 }
+
+header, section, footer {
+}
+
+header > .wrap, section > .wrap, footer > .wrap{
+    height: 100%;
+}
+
+header > .wrap > *, section > .wrap > *, footer > .wrap > *{
+    height: 100%;
+}
+
+#menu {
+    background-color: #0099cc;
+    height: 66px;
+}
+
+
+
+

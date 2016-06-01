@@ -1,17 +1,44 @@
-* {
-    margin: 0;
-}
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html, body {
-   height: 100%;
-   width: 100%;
+:root {
+    --font1: 'Merriweather', serif;
+    --font2: 'Montserrat', sans-serif;
+
+    --grey: #eee;
+    --main-color: #666;
+    --blue: #16c5fe;
+    --blue2: #0099cc;
+    --h1:#288dff;
+    --green: #43a400;
 }
 
 body {
-    background-color: peru;
+    color: var(--main-color) var(--grey);
+    font-size: 16px 32px;
+    font-family: var(--font1);
 }
 
 header {
-    size: 200px;
-    background-color: red;
+    height: 60px;
+    background-color: #fff;
 }
+
+header, section, footer {
+    & > .wrap {
+        height: 100%;
+
+        & > * {
+            height: 100%;
+        }
+    }
+}
+
+#menu {
+    background-color: var(--blue2);
+    height: 66px;
+}
+
+
+
+

@@ -17,6 +17,7 @@ gulp.task('css', function () {
     ];
     return gulp.src('./build/cssnext/*.css')
         .pipe(postcss(processors))
+        .on('error', () => {})
         .pipe(gulp.dest('./dest/css/'));
 })
 
@@ -29,7 +30,7 @@ gulp.task('default', ['css'], function () {
     });
 
     gulp.watch('./build/cssnext/*.css', ['css']);
-    gulp.watch('./dest/**.php').on('change', browserSync.reload);
+    gulp.watch('./dest/**/*.php').on('change', browserSync.reload);
 });
 
 
