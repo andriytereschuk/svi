@@ -1,7 +1,9 @@
 var gulp = require('gulp');
 var postcss = require('gulp-postcss');
-var cssnext = require('postcss-cssnext');
+var precss = require('precss');
+var rename = require('gulp-rename');
 var cssnano = require('cssnano');
+var autoprefixer = require('autoprefixer');
 var short = require('postcss-short');
 
 var browserSync = require('browser-sync').create();
@@ -10,14 +12,15 @@ var iconfontCss = require('gulp-iconfont-css');
 var iconfont = require('gulp-iconfont');
 
 gulp.task('css', function () {
-    var processors = [
-        cssnext,
+    var processors = [        
+        precss,
         short,
+        autoprefixer({browsers: ['last 2 version']}),
         // cssnano(),
     ];
-    return gulp.src('./build/cssnext/*.css')
+    return gulp.src('./build/scss/*.scss')
         .pipe(postcss(processors))
-        .on('error', () => {})
+        .pipe(rename('style.css'))
         .pipe(gulp.dest('./dest/css/'));
 })
 
@@ -26,10 +29,11 @@ gulp.task('css', function () {
 gulp.task('default', ['css'], function () {
 
     browserSync.init({
-        proxy: 'http://localhost/svi'
+        // proxy: 'http://localhost/svi'
+        proxy: 'http://svi.com/'
     });
 
-    gulp.watch('./build/cssnext/*.css', ['css']);
+    gulp.watch('./build/scss/*.scss', ['css']);
     gulp.watch('./dest/**/*.php').on('change', browserSync.reload);
 });
 

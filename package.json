@@ -1,12 +1,14 @@
 {
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
     "browser-sync": "latest",
     "cssnano": "^3.6.2",
     "gulp": "latest",
     "gulp-iconfont": "latest",
     "gulp-iconfont-css": "latest",
     "gulp-postcss": "latest",
-    "postcss-cssnext": "latest",
-    "postcss-short": "^1.4.0"
+    "gulp-rename": "^1.2.2",
+    "postcss-short": "^1.4.0",
+    "precss": "^1.4.0"
   }
 }

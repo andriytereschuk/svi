@@ -6,7 +6,12 @@ body {
     background-color: #eee;
     font-size: 16px;
     line-height: 32px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather',serif;
+}
+
+a {
+    text-decoration: none;
+    color: #288dff;
 }
 
 header {
@@ -14,20 +19,29 @@ header {
     background-color: #fff;
 }
 
-header, section, footer {
-}
-
-header > .wrap, section > .wrap, footer > .wrap{
+.row {
     height: 100%;
 }
 
-header > .wrap > *, section > .wrap > *, footer > .wrap > *{
+header > .wrap, section > .wrap, footer > .wrap {
+    height: 100%;
+}
+
+header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     height: 100%;
 }
 
 #menu {
     background-color: #0099cc;
     height: 66px;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    color: #fff;
 }
 
 
