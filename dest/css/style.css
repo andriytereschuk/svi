@@ -1,5 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face{
+    font-family: "icons";
+    src: url('../fonts/icons.eot');
+    src: url('../fonts/icons.eot?#iefix') format('eot'),
+		url('../fonts/icons.woff') format('woff'),
+		url('../fonts/icons.ttf') format('truetype'),
+		url('../fonts/icons.svg#icons') format('svg');
+}
+.icon:before{
+    font-family: "icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+    text-decoration: none;
+    text-transform: none;
+}
+.icon-beach:before{
+    content: "\E001";
+}
+.icon-land:before{
+    content: "\E002";
+}
+.icon-phone:before{
+    content: "\E003";
+}
+.icon-place:before{
+    content: "\E004";
+}
 
 body {
     color: #666;
@@ -12,6 +43,24 @@ body {
 a {
     text-decoration: none;
     color: #288dff;
+}
+
+.icon {
+    display: block;
+    color: #3fb5de;
+    font-size: 28px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+section {
+    position: relative;
 }
 
 header {
@@ -32,16 +81,48 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
 }
 
 #menu {
-    background-color: #0099cc;
+    background-color: #3fb5de;
     height: 66px;
 }
 
-#menu li {
-    display: inline;
+.menu li {
+    display: inline-block;
+    height: 66px;
+    line-height: 66px;
+    position: relative;
+    padding-left: 30px
 }
 
-#menu a {
+.menu li.active{}
+
+.menu li.active:before{
+    content: '';
+    display: block;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    margin-left: -8.5px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+.menu li:first-child{
+    padding-left: 0;
+}
+
+.menu li:first-child:before{}
+
+.menu a {
     color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+}
+
+.lang {
+    display: block;
 }
 
 

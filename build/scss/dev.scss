@@ -1,15 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import "_icons.scss";
 
 $font1: 'Merriweather', serif;
 $font2: 'Montserrat', sans-serif;
 
 $grey: #eee;
 $main-color: #666;
-$blue: #16c5fe;
+
+$blue1: #16c5fe;
 $blue2: #0099cc;
-$h1:#288dff;
+$blue: #3fb5de;
+
+$orange: #ffc200;
+
+$h1: #288dff;
 $green: #43a400;
+$green2: #54bf4f;
 
 body {
     color: $main-color $grey;
@@ -20,6 +27,24 @@ body {
 a {
     text-decoration: none;
     color: $h1;
+}
+
+.icon {
+    display: block;
+    color: $blue;
+    font-size: 28px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+section {
+    position: relative;
 }
 
 header {
@@ -42,16 +67,49 @@ header, section, footer {
 }
 
 #menu {
-    background-color: $blue2;
+    background-color: $blue;
     height: 66px;
-    
+}
+
+.menu {
     li {
-        display: inline;
+        display: inline-block;
+        height: 66px;
+        line-height: 66px;
+        position: relative;
+        padding-left: 30px;
+
+        &.active {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute 0 * * 50%;
+                margin-left: -8.5px;
+                size: 0;
+                border-left: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-top: 10px solid #fff;
+            }
+        }
+
+        &:first-child {
+            padding-left: 0;
+
+            &:before {
+
+            }
+        }
     }
-    
+
     a {
         color: #fff;
+        font-family: $font2;
+        font-size: 14px;
     }
+}
+
+.lang {
+    display: block;
 }
 
 

@@ -5,6 +5,8 @@
 
     <?php include_once('title/main.php'); ?>
 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="author" content="Андрій Терещук">
     <meta name="robots" content="all">
@@ -22,12 +24,22 @@
 <header>
     <div class="wrap container">
         <div class="row between-xs middle-xs">
-            <div class="col-md-2">
+            <div>
                 <a href="">
                     <img src="images/logo.png" alt="">
                 </a>
             </div>
-            <div class="col-md-10">2</div>
+            <div>
+                <div class="place pull-left">
+                    <i class="icon icon-place"></i>
+                </div>
+                <div class="place pull-left">
+                    <i class="icon icon-phone"></i>
+                </div>
+                <div class="lang pull-left">
+                    <i class="icon icon-land"></i>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -37,7 +49,7 @@
         <div class="row middle-xs">
             <div class="col-md-8">
                 <ul class="menu">
-                    <li><a href="">Кімнати</a></li>
+                    <li class="active"><a href="">Кімнати</a></li>
                     <li><a href="">Будинки</a></li>
                     <li><a href="">Про нас</a></li>
                     <li><a href="">Бронюваня</a></li>
