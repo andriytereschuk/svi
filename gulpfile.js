@@ -29,8 +29,8 @@ gulp.task('css', function () {
 gulp.task('default', ['css'], function () {
 
     browserSync.init({
-        proxy: 'http://localhost/svi'
-        // proxy: 'http://svi.com/'
+        // proxy: 'http://localhost/svi'
+        proxy: 'http://svi.com/'
     });
 
     gulp.watch('./build/scss/dev.scss', ['css']);

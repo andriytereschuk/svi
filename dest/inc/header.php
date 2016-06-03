@@ -30,14 +30,17 @@
                 </a>
             </div>
             <div>
-                <div class="place pull-left">
+                <div class="place pull-left ml-10">
                     <i class="icon icon-place"></i>
+                    <div class="pull-left ml-5">Світязь, Набережна, 45</div>
                 </div>
-                <div class="place pull-left">
+                <div class="place pull-left ml-10">
                     <i class="icon icon-phone"></i>
+                    <div class="pull-left ml-5">(097) 654 - 19 - 51</div>
                 </div>
-                <div class="lang pull-left">
+                <div class="lang pull-left ml-10">
                     <i class="icon icon-land"></i>
+                    <div class="lang-current pull-left ml-5">UA</div>
                 </div>
             </div>
         </div>

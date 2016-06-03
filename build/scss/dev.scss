@@ -31,6 +31,7 @@ a {
 
 .icon {
     display: block;
+    float: left;
     color: $blue;
     font-size: 28px;
 }
@@ -42,6 +43,71 @@ a {
 .pull-right {
     float: right;
 }
+
+.mt-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-left: 5px;
+}
+
+.mb-5 {
+    margin-left: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.pt-5 {
+    margin-left: 5px;
+}
+
+.pr-5 {
+    margin-left: 5px;
+}
+
+.pb-5 {
+    margin-left: 5px;
+}
+
+.pl-5 {
+    margin-left: 5px;
+}
+
+.mt-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-left: 10px;
+}
+
+.mb-10 {
+    margin-left: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.pt-10 {
+    margin-left: 10px;
+}
+
+.pr-10 {
+    margin-left: 10px;
+}
+
+.pb-10 {
+    margin-left: 10px;
+}
+
+.pl-10 {
+    margin-left: 10px;
+}
+
 
 section {
     position: relative;
@@ -110,6 +176,10 @@ header, section, footer {
 
 .lang {
     display: block;
+    
+    &-curent {
+        
+    }
 }
 
 
