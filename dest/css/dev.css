@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic);
+
+body {
+    color: #666;
+    background-color: #eee;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #288dff;
+}
+
+b, strong {
+    font-weight: 400;
+}
+
+.icon {
+    display: block;
+    float: left;
+    color: #3fb5de;
+    font-size: 28px;
+}
+
+section {
+    position: relative;
+}
+
+header {
+    height: 60px;
+    background-color: #fff;
+}
+
+.white {
+    background: #fff;
+    box-shadow: 0 0 30px -10px rgba(0,0,0,0.3);
+}
+
+.row {
+    height: 100%;
+}
+
+header > .wrap, section > .wrap, footer > .wrap {
+    height: 100%;
+}
+
+header > .wrap > *, section > .wrap > *, footer > .wrap > * {
+    height: 100%;
+}
+
+#menu {
+    background-color: #3fb5de;
+    height: 66px;
+}
+
+.menu li {
+    display: inline-block;
+    height: 66px;
+    line-height: 66px;
+    position: relative;
+    padding-left: 30px
+}
+
+.menu li.active{}
+
+.menu li.active:before{
+    content: '';
+    display: block;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    margin-left: -8.5px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+.menu li:first-child{
+    padding-left: 0;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.lang {
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.lang-arrow{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #666;
+    margin-top: 12px;
+}
+
+.social-links .icon {
+    color: #fff;
+}
+
+.social-links a {
+    margin-top: 3px
+}
+
+.social-links a.icon-home{
+    margin-top: 0;
+}
+
+.box-4{
+    height: 400px;
+}
+
+.box-2{
+    height: 200px;
+}
+
+.video {
+    height: 270px;
+}
+

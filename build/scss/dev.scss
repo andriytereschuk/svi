@@ -1,9 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900italic,900);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import "_icons.scss";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic);
 
-$font1: 'Merriweather', serif;
-$font2: 'Montserrat', sans-serif;
+$font1: 'Roboto', sans-serif;
 
 $grey: #eee;
 $main-color: #666;
@@ -22,11 +19,16 @@ body {
     color: $main-color $grey;
     font-size: 16px 32px;
     font-family: $font1;
+    font-weight: 300;
 }
 
 a {
     text-decoration: none;
     color: $h1;
+}
+
+b, strong {
+    font-weight: 400;
 }
 
 .icon {
@@ -36,79 +38,6 @@ a {
     font-size: 28px;
 }
 
-.pull-left {
-    float: left;
-}
-
-.pull-right {
-    float: right;
-}
-
-.mt-5 {
-    margin-left: 5px;
-}
-
-.mr-5 {
-    margin-left: 5px;
-}
-
-.mb-5 {
-    margin-left: 5px;
-}
-
-.ml-5 {
-    margin-left: 5px;
-}
-
-.pt-5 {
-    margin-left: 5px;
-}
-
-.pr-5 {
-    margin-left: 5px;
-}
-
-.pb-5 {
-    margin-left: 5px;
-}
-
-.pl-5 {
-    margin-left: 5px;
-}
-
-.mt-10 {
-    margin-left: 10px;
-}
-
-.mr-10 {
-    margin-left: 10px;
-}
-
-.mb-10 {
-    margin-left: 10px;
-}
-
-.ml-10 {
-    margin-left: 10px;
-}
-
-.pt-10 {
-    margin-left: 10px;
-}
-
-.pr-10 {
-    margin-left: 10px;
-}
-
-.pb-10 {
-    margin-left: 10px;
-}
-
-.pl-10 {
-    margin-left: 10px;
-}
-
-
 section {
     position: relative;
 }
@@ -116,6 +45,11 @@ section {
 header {
     height: 60px;
     background-color: #fff;
+}
+
+.white {
+    background: #fff;
+    box-shadow: 0 0 30px -10px rgba(0,0,0,0.3);
 }
 
 .row {
@@ -160,28 +94,50 @@ header, section, footer {
 
         &:first-child {
             padding-left: 0;
-
-            &:before {
-
-            }
         }
     }
 
     a {
         color: #fff;
-        font-family: $font2;
-        font-size: 14px;
     }
 }
 
 .lang {
-    display: block;
-    
-    &-curent {
-        
+    cursor: pointer;
+    display: flex;
+
+    &-arrow {
+        size: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 6px solid $main-color;
+        margin-top: 12px;
     }
 }
 
+.social-links {
+    .icon {
+        color: #fff;
+    }
 
+    a {
+        margin-top: 3px;
 
+        &.icon-home {
+            margin-top: 0;
+        }
+    }
+}
+
+.box-4{
+    height: 400px;
+}
+
+.box-2{
+    height: 200px;
+}
+
+.video {
+    height: 270px;
+}
 
