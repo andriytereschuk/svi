@@ -36,10 +36,14 @@
 	content: "\E004";
 }
 
-.icon-vk:before {
+.icon-plus:before {
 	content: "\E005";
 }
 
-.icon-youtube:before {
+.icon-vk:before {
 	content: "\E006";
+}
+
+.icon-youtube:before {
+	content: "\E007";
 }

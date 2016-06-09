@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/decorate.css">
     <link rel="stylesheet" href="css/dev.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script>
+    <!-- script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-rc1/jquery.min.js"></script -->
 </head>
 <body>
 

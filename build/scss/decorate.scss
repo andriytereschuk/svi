@@ -6,6 +6,20 @@
     float: right;
 }
 
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hidden {
     overflow: hidden;
 }

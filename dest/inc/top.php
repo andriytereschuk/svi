@@ -4,15 +4,70 @@
             <div class="col-xs-6">
                 <div class="row">
                     <div class="col-xs-12">
-                        <div class="box-4 white"></div>
+                        <div class="box box-size-4 white">
+                            <div class="box-header">
+                                <h2>Гарячі пропозиції</h2>
+                            </div>
+
+                            <div class="box-content">
+                                <a href="#">
+                                    <img src="gallery/builds/temp.jpg" alt="">
+                                    <span class="box-overlay center">
+                                        <i class="icon icon-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-xs-6">
-                        <div class="box-2 white mt-20"></div>
+                        <div class="box box-size-2 white">
+                            <div class="box-header box-header__blue box-col-2">
+                                <div>
+                                    <div>Корпус: <b>А</b></div>
+                                    <div>Кімната: <b>1</b></div>
+                                </div>
+
+                                <div class="align-right">
+                                    <div>Ціна: <b>250 грн</b></div>
+                                    <div>Кількість: <b>2 чол</b></div>
+                                </div>
+                            </div>
+
+                            <div class="box-content">
+                                <a href="#">
+                                    <img src="gallery/offers/c1.jpg" alt="">
+                                    <span class="box-overlay center">
+                                        <i class="icon icon-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-xs-6">
-                        <div class="box-2 white mt-20"></div>
+                        <div class="box box-size-2 white">
+                            <div class="box-header box-header__blue box-col-2">
+                                <div>
+                                    <div>Корпус: <b>C</b></div>
+                                    <div>Кімната: <b>2</b></div>
+                                </div>
+
+                                <div class="align-right">
+                                    <div>Ціна: <b>300 грн</b></div>
+                                    <div>Кількість: <b>2-3 чол</b></div>
+                                </div>
+                            </div>
+
+                            <div class="box-content">
+                                <a href="#">
+                                    <img src="gallery/offers/c2.jpg" alt="">
+                                    <span class="box-overlay center">
+                                        <i class="icon icon-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -20,21 +75,65 @@
             <div class="col-xs-6">
                 <div class="row">
                     <div class="col-xs-6">
-                        <div class="box-2 white"></div>
+                        <div class="box box-size-2 white">
+                            <div class="box-header box-header__blue box-col-2">
+                                <div>
+                                    <div>Корпус: <b>B</b></div>
+                                    <div>Кімната: <b>1</b></div>
+                                </div>
+
+                                <div class="align-right">
+                                    <div>Ціна: <b>300 грн</b></div>
+                                    <div>Кількість: <b>2 чол</b></div>
+                                </div>
+                            </div>
+
+                            <div class="box-content">
+                                <a href="#">
+                                    <img src="gallery/offers/a2-1.jpg" alt="">
+                                    <span class="box-overlay center">
+                                        <i class="icon icon-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-xs-6">
-                        <div class="box-2 white hidden flex middle-xs center-xs">
-                            <video class="video" loop autoplay>
-								<source src="video/v.webm" type='video/webm; codecs="vp8, vorbis"' />
-								<source src="video/v.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-								<source src="video/v.ogv" type='video/ogg; codecs="theora, vorbis"' />
-							<video>
+                        <div class="box box-size-2 white">
+                            <div class="box-header box-header__blue box-col-2">
+                                <div>
+                                    <div>Корпус: <b>B</b></div>
+                                    <div>Кімната: <b>4</b></div>
+                                </div>
+
+                                <div class="align-right">
+                                    <div>Ціна: <b>350 грн</b></div>
+                                    <div>Кількість: <b>2 чол</b></div>
+                                </div>
+                            </div>
+
+                            <div class="box-content">
+                                <a href="#">
+                                    <img src="gallery/offers/a2-2.jpg" alt="">
+                                    <span class="box-overlay center">
+                                        <i class="icon icon-plus"></i>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-xs-12">
-                        <div class="box-4 white mt-20"></div>
+                        <div class="box box-size-4 white">
+                            <div class="box-header">
+                                <h2>Карта</h2>
+                            </div>
+
+                            <div class="box-content">
+                                <?php include_once('inc/map.php'); ?>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
