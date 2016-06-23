@@ -5,6 +5,7 @@ var rename = require('gulp-rename');
 var cssnano = require('cssnano');
 var autoprefixer = require('autoprefixer');
 var short = require('postcss-short');
+var babel = require('gulp-babel');
 
 var browserSync = require('browser-sync').create();
 
@@ -32,11 +33,12 @@ gulp.task('css', function () {
 gulp.task('default', ['css'], function () {
 
     browserSync.init({
-        // proxy: 'http://localhost/svi'
-        proxy: 'http://svi.com/'
+        proxy: 'http://localhost/svi'
+        // proxy: 'http://svi.com/'
     });
 
     gulp.watch('./build/scss/*.scss', ['css']);
+    gulp.watch('./build/js/*.js', ['js']);
     gulp.watch('./dest/**/*.php').on('change', browserSync.reload);
 });
 
@@ -57,4 +59,10 @@ gulp.task('iconfont', function () {
             normalize: true
         }))
         .pipe(gulp.dest('dest/fonts'));
+});
+
+gulp.task("js", function () {
+  return gulp.src("./build/js/*.js")
+    .pipe(babel())
+    .pipe(gulp.dest("./dest/js/"));
 });
