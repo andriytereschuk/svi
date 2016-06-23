@@ -7,7 +7,15 @@ body {
     line-height: 24px;
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
-    padding-bottom: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.wrapper {
+    -ms-flex: 1 0 auto;
+        flex: 1 0 auto;
 }
 
 a {
@@ -228,8 +236,4 @@ footer {
     line-height: 60px;
     color: #fff;
     background-color: #3fb5de;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
 }

@@ -21,7 +21,12 @@ body {
     font-size: 16px 24px;
     font-family: $font1;
     font-weight: 300;
-    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1 0 auto;
 }
 
 a {
@@ -236,5 +241,4 @@ footer {
     line-height: 60px;
     color: #fff;
     background-color: $blue;
-    position: absolute * 0 0 0;
 }
