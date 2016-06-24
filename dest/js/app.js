@@ -1,38 +1,32 @@
 'use strict';
 
 (function() {
+	angular.module('app', ['ngComponentRouter', 'pascalprecht.translate'])
+		.config(function($translateProvider) {
+			$translateProvider.determinePreferredLanguage(function() {
+				var lang = 'uk';
+				// some custom logic's going on in here
+				return lang;
+			});
+			$translateProvider.useLoader('langAsyncLoader');
+		})
+		.factory('langAsyncLoader', function($q, $http) {
+			return function(options) {
+				var deferred = $q.defer(),
+					translations,
+					file;
 
-	const data = [
-		{
-			'id': 1,
-			'img': 'gallery/hotels/temp.jpg',
-			'rooms': 15,
-			'price': 150,
-			'rating': 5
-		},
-		{
-			'id': 2,
-			'img': 'gallery/hotels/temp.jpg',
-			'rooms': 2,
-			'price': 150,
-			'rating': 5
-		},
-		{
-			'id': 3,
-			'img': 'gallery/hotels/temp.jpg',
-			'rooms': 4,
-			'price': 100,
-			'rating': 4
-		},
-		{
-			'id': 4,
-			'img': 'gallery/hotels/temp.jpg',
-			'rooms': 5,
-			'price': 100,
-			'rating': 4
-		}
-	];
-	angular.module('app', ['ngComponentRouter'])
+				file = 'lang/' + options.key + '.json';
+
+				$http.get(file)
+					.then(function(resp) {
+						translations = resp.data;
+						deferred.resolve(translations);
+					});
+
+				return deferred.promise;
+			};
+		})
 		.value('$routerRootComponent', 'main')
 		.component('main', {
 			template: '<ng-outlet></ng-outlet>',
@@ -45,10 +39,15 @@
 		.component('hotels', {
 			templateUrl: 'tmpl/hotels.html',
 			controllerAs: 'model',
-			controller: function() {
+			controller: function($http) {
 				var model = this;
 
-				model.hotels = data;
+				model.$routerOnActivate = function() {
+					$http.get('data/hotels.json')
+						.then(function(resp) {
+							model.hotels = resp.data;
+						});
+				};
 			}
 		})
 		.component('hotel', {
@@ -56,6 +55,11 @@
 			controllerAs: 'model',
 			controller: function() {
 				var model = this;
+
+				// var element = document.getElementById('swiper1');
+				var swiper = new Swiper('.swiper1', {
+					loop: true
+				});
 
 				model.$routerOnActivate = function(next) {
 					model.id = next.params.id;

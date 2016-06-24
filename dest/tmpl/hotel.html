@@ -1,11 +1,19 @@
 <!--<h1>Hotel {{model.id}}</h1>-->
-
+<!--{{'title' | translate}}-->
 <section id="hotel">
     <div class="wrap container pt-40">
         <div class="white">
             <div class="row">
                 <div class="col-xs-6">
-                    <img src="gallery/hotels/temp.jpg" alt="" width="100%">
+                    <div class="swiper-container swiper swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
+                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
+                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>                    
                 </div>
                 <div class="col-xs-6">
                     <div class="props">

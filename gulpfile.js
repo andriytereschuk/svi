@@ -5,7 +5,7 @@ var rename = require('gulp-rename');
 var cssnano = require('cssnano');
 var autoprefixer = require('autoprefixer');
 var short = require('postcss-short');
-var babel = require('gulp-babel');
+// var babel = require('gulp-babel');
 
 var browserSync = require('browser-sync').create();
 
@@ -33,8 +33,8 @@ gulp.task('css', function () {
 gulp.task('default', ['css'], function () {
 
     browserSync.init({
-        proxy: 'http://localhost/svi'
-        // proxy: 'http://svi.com/'
+        // proxy: 'http://localhost/svi'
+        proxy: 'http://svi.com/'
     });
 
     gulp.watch('./build/scss/*.scss', ['css']);
