@@ -216,7 +216,7 @@ header, section, footer {
         }
     }
 
-    &-col-2 {
+    &-col {
         padding: 0 20px;
         font-size: 14px;
         justify-content: space-between;
@@ -241,4 +241,62 @@ footer {
     line-height: 60px;
     color: #fff;
     background-color: $blue;
+    margin-top: 20px;
+}
+
+.props {
+    padding: 20px 0;
+    display: flex;
+
+    .center {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    span {
+        font-size: 12px;
+        white-space: nowrap;
+        text-align: center;
+    }
+}
+
+.desc {
+    padding-left: 20px;
+
+    h1 {
+        margin: 10px 0;
+        font-weight: 300;
+    }
+
+    p {
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        margin-bottom: 12px;
+    }
+
+    ul {
+        margin-left: 15px;
+
+        li {
+            position: relative;
+            padding-left: 30px;
+            font-size: 14px;
+            line-height: 26px;
+
+            &:before {
+                content: '';
+                display: block;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background-color: $orange;
+                position: absolute;
+                left: 0;
+                top: 10px;
+            }
+        }
+    }
 }

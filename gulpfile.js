@@ -38,7 +38,7 @@ gulp.task('default', ['css'], function () {
     });
 
     gulp.watch('./build/scss/*.scss', ['css']);
-    gulp.watch('./build/js/*.js', ['js']);
+    // gulp.watch('./build/js/*.js', ['js']);
     gulp.watch('./dest/**/*.php').on('change', browserSync.reload);
 });
 

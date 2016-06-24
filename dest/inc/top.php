@@ -11,7 +11,7 @@
 
                             <div class="box-content">
                                 <a href="#">
-                                    <img src="gallery/builds/temp.jpg" alt="">
+                                    <img src="gallery/hotels/temp.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
                                     </span>
@@ -22,7 +22,7 @@
 
                     <div class="col-xs-6">
                         <div class="box box-size-2 white">
-                            <div class="box-header box-header__blue box-col-2">
+                            <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Корпус: <b>А</b></div>
                                     <div>Кімната: <b>1</b></div>
@@ -47,7 +47,7 @@
 
                     <div class="col-xs-6">
                         <div class="box box-size-2 white">
-                            <div class="box-header box-header__blue box-col-2">
+                            <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Корпус: <b>C</b></div>
                                     <div>Кімната: <b>2</b></div>
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-xs-6">
                         <div class="box box-size-2 white">
-                            <div class="box-header box-header__blue box-col-2">
+                            <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Корпус: <b>B</b></div>
                                     <div>Кімната: <b>1</b></div>
@@ -101,7 +101,7 @@
 
                     <div class="col-xs-6">
                         <div class="box box-size-2 white">
-                            <div class="box-header box-header__blue box-col-2">
+                            <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Корпус: <b>B</b></div>
                                     <div>Кімната: <b>4</b></div>

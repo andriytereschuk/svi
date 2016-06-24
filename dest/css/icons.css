@@ -20,30 +20,54 @@
 }
 
 
-.icon-home:before {
+.icon-barbecue:before {
 	content: "\E001";
 }
 
-.icon-land:before {
+.icon-home:before {
 	content: "\E002";
 }
 
-.icon-phone:before {
+.icon-kiosk:before {
 	content: "\E003";
 }
 
-.icon-place:before {
+.icon-kitchen:before {
 	content: "\E004";
 }
 
-.icon-plus:before {
+.icon-land:before {
 	content: "\E005";
 }
 
-.icon-vk:before {
+.icon-phone:before {
 	content: "\E006";
 }
 
-.icon-youtube:before {
+.icon-place:before {
 	content: "\E007";
+}
+
+.icon-plus:before {
+	content: "\E008";
+}
+
+.icon-shower:before {
+	content: "\E009";
+}
+
+.icon-tv:before {
+	content: "\E00A";
+}
+
+.icon-vk:before {
+	content: "\E00B";
+}
+
+.icon-wifi:before {
+	content: "\E00C";
+}
+
+.icon-youtube:before {
+	content: "\E00D";
 }

@@ -210,14 +210,14 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     font-size: 32px;
 }
 
-.box-col-2{
+.box-col{
     padding: 0 20px;
     font-size: 14px;
     -ms-flex-pack: justify;
         justify-content: space-between;
 }
 
-.box-col-2 b{
+.box-col b{
     color: #0099cc;
 }
 
@@ -236,4 +236,64 @@ footer {
     line-height: 60px;
     color: #fff;
     background-color: #3fb5de;
+    margin-top: 20px;
+}
+
+.props {
+    padding: 20px 0;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.props .center {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin: 0 20px;
+}
+
+.props span {
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.desc {
+    padding-left: 20px;
+}
+
+.desc h1 {
+    margin: 10px 0;
+    font-weight: 300;
+}
+
+.desc p {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.desc h2 {
+    margin-bottom: 12px;
+}
+
+.desc ul {
+    margin-left: 15px;
+}
+
+.desc ul li {
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 26px
+}
+
+.desc ul li:before{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: #ffc200;
+    position: absolute;
+    left: 0;
+    top: 10px;
 }

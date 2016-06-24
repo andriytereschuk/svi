@@ -1,3 +1,30 @@
-<div data-ng-repeat="hotel in model.hotels">
-    <a href data-ng-link="['Hotel', {id: hotel.id}]">{{hotel.name}}</a>
-</div>
+
+<section id="hotels">
+    <div class="wrap container pt-40">
+        <div class="row">
+            <div class="col-xs-6" data-ng-repeat="hotel in model.hotels">
+                <div class="box box-size-4 white">
+                    <div class="box-header box-col">
+                        <div>
+                            <div>Будинок: <b>{{ hotel.id }}</b></div>
+                            <div>Кімнати: <b>{{ hotel.rooms }}</b></div>
+                        </div>
+                        <div>
+                            <div>Ціни: <b>від {{ hotel.price }} грн</b></div>
+                            <div>Рейтинг: <b>{{ hotel.rating }}</b></div>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <a href data-ng-link="['Hotel', {id: hotel.id}]">
+                            <img data-ng-src="{{hotel.img}}" alt="">
+                            <span class="box-overlay center">
+                                <i class="icon icon-plus"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
