@@ -86,6 +86,9 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
 
 .menu a {
     color: #fff;
+    display: block;
+    height: 100%;
+    position: relative;
 }
 
 .lang {

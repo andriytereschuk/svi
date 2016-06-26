@@ -1,0 +1,49 @@
+<section id="room">
+    <div class="wrap container pt-10">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumbs">
+                    <li><a href data-ng-link="['Hotels']" translate="builds"></a><i class="icon icon-next"></i></li>
+                    <li><a href data-ng-link="['Hotel', {id: model.hotelId}]">{{ 'build' | translate }} {{ model.hotelId }}</a><i class="icon icon-next"></i></li>
+                    <li><span>{{ 'room' | translate}} {{ model.id }}</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pt-10">
+            <div class="col-xs-6 pr-0">
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-ng-repeat="img in model.room.images" data-ng-style="{'background-image':'url({{ img }})'}"></div>
+                    </div>
+                    <div class="swiper-arrow swiper-prev">
+                        <i class="icon icon-right-arrow"></i>
+                    </div>
+                    <div class="swiper-arrow swiper-next">
+                        <i class="icon icon-right-arrow"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 pl-0">
+                <div class="white relative pb-40">
+                    <div class="room-price">
+                        <span class="room-price__value">{{ model.room.price }}</span>
+                        <b class="room-price__curency" translate="curency"></b>
+                        <span class="room-price__note"><sup>*</sup> {{ 'priceNote' | translate }}</span>
+                    </div>
+
+                    <div class="desc">
+                        <div class="room-title">
+                            <h1>{{ 'room' | translate }} {{model.id}}</h1>
+                        </div>
+                        <h2 translate="roomProps"></h2>
+                        <ul>
+                            <li>2 ліжка</li>
+                            <li data-ng-repeat="prop in model.room.props">{{ prop | translate }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

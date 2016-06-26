@@ -1,0 +1,11 @@
+{
+	"price": 300,
+	"images": [
+		"gallery/hotels/temp.jpg"
+	],
+	"props": [
+		"wifi",
+		"tv",
+		"refrigerator"
+	]
+}

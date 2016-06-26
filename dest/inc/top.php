@@ -24,7 +24,7 @@
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
-                                    <div>Корпус: <b>А</b></div>
+                                    <div>Будинок: <b>А</b></div>
                                     <div>Кімната: <b>1</b></div>
                                 </div>
 
@@ -49,7 +49,7 @@
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
-                                    <div>Корпус: <b>C</b></div>
+                                    <div>Будинок: <b>C</b></div>
                                     <div>Кімната: <b>2</b></div>
                                 </div>
 
@@ -78,7 +78,7 @@
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
-                                    <div>Корпус: <b>B</b></div>
+                                    <div>Будинок: <b>B</b></div>
                                     <div>Кімната: <b>1</b></div>
                                 </div>
 
@@ -103,7 +103,7 @@
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
-                                    <div>Корпус: <b>B</b></div>
+                                    <div>Будинок: <b>B</b></div>
                                     <div>Кімната: <b>4</b></div>
                                 </div>
 

@@ -1,65 +1,71 @@
-<!--<h1>Hotel {{model.id}}</h1>-->
-<!--{{'title' | translate}}-->
 <section id="hotel">
-    <div class="wrap container pt-40">
-        <div class="white">
-            <div class="row">
-                <div class="col-xs-6">
-                    <div class="swiper-container swiper swiper1">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
-                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
-                            <div class="swiper-slide" style="background-image: url(../gallery/hotels/temp.jpg)"></div>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>                    
+    <div class="wrap container pt-10">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumbs">
+                    <li><a href data-ng-link="['Hotels']" translate="builds"></a><i class="icon icon-next"></i></li>
+                    <li><span>{{ 'build' | translate}} {{ model.id }}</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pb-40 pt-10">
+            <div class="col-xs-6 pr-0">
+                <div class="swiper-container swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-ng-repeat="img in model.hotel.images" data-ng-style="{'background-image':'url({{ img }})'}"></div>
+                    </div>
+                    <div class="swiper-arrow swiper-prev">
+                        <i class="icon icon-right-arrow"></i>
+                    </div>
+                    <div class="swiper-arrow swiper-next">
+                        <i class="icon icon-right-arrow"></i>
+                    </div>
                 </div>
-                <div class="col-xs-6">
+            </div>
+            <div class="col-xs-6 pl-0">
+                <div class="white pb-40">
                     <div class="props">
-                        <div class="center">
-                            <i class="icon icon-wifi"></i>
-                            <span>Free Wifi</span>
-                        </div>
-
-                        <div class="center">
-                            <i class="icon icon-kiosk"></i>
-                            <span>Альтанки</span>
-                        </div>
-
-                        <div class="center">
-                            <i class="icon icon-barbecue"></i>
-                            <span>Мангали</span>
-                        </div>
-
-                        <div class="center">
-                            <i class="icon icon-kitchen"></i>
-                            <span>Кухня</span>
-                        </div>
-
-                        <div class="center">
-                            <i class="icon icon-shower"></i>
-                            <span>Гаряча вода</span>
-                        </div>
-
-                        <div class="center">
-                            <i class="icon icon-tv"></i>
-                            <span>Супутникове ТБ</span>
+                        <div class="center" data-ng-repeat="prop in model.hotel.props">
+                            <i data-ng-class="'icon icon-' + prop"></i>
+                            <span>{{ prop | translate }}</span>
                         </div>
                     </div>
 
                     <div class="desc">
-                        <h1>Будинок #1</h1>
-                        <p>Двоповерховий будинок зі зручностями.</p>
+                        <h1>{{ 'build' | translate }} {{model.id}}</h1>
+                        <div translate="descHotel{{model.id}}"></div>
                         <br>
-                        <h2>Розваги</h2>
+                        <h2 translate="atractions"></h2>
                         <ul>
-                            <li>Дитячий майданчик</li>
-                            <li>Волейбол</li>
-                            <li>Гойдалки</li>
-                            <li>Баскетбольне кільце</li>
-                            <li>Прокат велосипедів</li>
+                            <li data-ng-repeat="atraction in model.hotel.atractions">{{ atraction | translate }}</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3" data-ng-repeat="room in model.hotel.rooms">
+                <div class="box box-size-2 white">
+                    <div class="box-header box-header__blue box-col">
+                        <div>
+                            <div>{{ 'build' | translate }}: <b>{{ model.id }}</b></div>
+                            <div>{{ 'room' | translate }}: <b>{{ room.id }}</b></div>
+                        </div>
+
+                        <div class="align-right">
+                            <div>{{ 'price' | translate }}: <b>{{ room.price }} грн</b></div>
+                            <div>{{ 'count' | translate }}: <b>{{ room.count }} чол</b></div>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <a href data-ng-link="['Room', {hotelId: model.id, roomId: room.id}]" data-ng-style="{'background-image':'url({{ room.img }})'}">
+                            <span class="box-overlay center">
+                                <i class="icon icon-plus"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>

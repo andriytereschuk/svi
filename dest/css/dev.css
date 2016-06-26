@@ -70,20 +70,25 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     height: 66px;
 }
 
-.menu li {
+.menu > li {
     display: inline-block;
     height: 66px;
     line-height: 66px;
     position: relative;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
-.menu li.active{}
-
-.menu li.active:before{
-    content: '';
+.menu > li a {
+    color: #fff;
     display: block;
-    top: 0;
+    height: 100%;
+    position: relative
+}
+
+.menu > li a:before{
+    content: '';
+    display: none;
+    top: -1px;
     left: 50%;
     position: absolute;
     margin-left: -8.5px;
@@ -94,16 +99,53 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     border-top: 10px solid #fff;
 }
 
-.menu li:first-child{
+.menu > li:first-child{
     padding-left: 0;
 }
 
-.menu a {
-    color: #fff;
+.menu > li:hover > a{}
+
+.menu > li:hover > a:before{
+    display: block;
+}
+
+.menu > li:hover a + .sub-menu{
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 66px;
+    left: -1px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    z-index: 3;
+    padding: 4px;
+    width: 430px;
+}
+
+.sub-menu li {
+    display: inline-block;
+    margin: 4px;
+}
+
+.sub-menu a {
+    display: block;
+}
+
+.sub-menu a img {
+    width: 200px;
+}
+
+.sub-menu a:hover{}
+
+.sub-menu a:hover:before{
+    display: block;
 }
 
 .lang {
-    cursor: pointer;
     display: -ms-flexbox;
     display: flex
 }
@@ -115,6 +157,34 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     border-right: 5px solid transparent;
     border-top: 6px solid #666;
     margin-top: 8px;
+}
+
+.lang-item{
+    opacity: 0;
+    width: 0;
+    text-align: center;
+    font-weight: 400;
+    white-space: nowrap;
+    transition: opacity .2s, width .2s;
+}
+
+.lang-arrow{
+    transition: transform .2s;
+}
+
+.lang:hover .lang-current{
+    margin-right: 3px;
+}
+
+.lang:hover .lang-item{
+    width: 26px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.lang:hover .lang-arrow{
+    transform: rotate(90deg);
+    margin-left: 2px;
 }
 
 .social-links .icon {
@@ -187,6 +257,9 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
     position: relative;
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #e6e6e6;
 }
 
 .box-content a:hover span{
@@ -258,7 +331,7 @@ footer {
 }
 
 .desc {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .desc h1 {
@@ -372,9 +445,100 @@ footer {
 
 .swiper {
     height: 400px;
+    background-color: #e6e6e6;
 }
 
-.swiper .swiper-slide {
+.swiper .swiper-wrapper {
+    background-color: #e6e6e6;
+}
+
+.swiper-slide{
     background-size: cover;
-    background-position: center center;
+    background-position: center;
+}
+
+.swiper-arrow{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.swiper-arrow i{
+    color: #fff;
+}
+
+.swiper-prev{
+    left: 20px;
+    transform: rotate(180deg);
+}
+
+.swiper-next{
+    right: 20px;
+}
+
+.room-price {
+    background-color: #ffc200;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.room-price__value{
+    font-size: 30px;
+}
+
+.room-price__curency{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.room-price__note{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    color: #3fb5de;
+}
+
+.room-title h1 {
+    margin: 0 0 20px 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.breadcrumbs {
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.breadcrumbs i {
+    font-size: 20px;
+    color: #909090;
+    padding: 0 6px 0 7px;
+}
+
+.breadcrumbs a {
+    color: #3fb5de;
+}
+
+.breadcrumbs a, .breadcrumbs span {
+    float: left;
+}
+
+.info h1 {
+    text-align: center;
+    font-weight: 300;
+    margin: 0 0 30px 0;
 }
