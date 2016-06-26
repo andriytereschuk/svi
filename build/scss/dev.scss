@@ -62,7 +62,6 @@ header {
 
 .white {
     background: #fff;
-    //box-shadow: 0 0 30px -10px rgba(0,0,0,0.3);
     box-shadow: 0 0 0 1px $border;
 }
 
@@ -91,10 +90,10 @@ header, section, footer {
         height: 66px;
         line-height: 66px;
         position: relative;
-        padding-left: 30px;
+        margin-left: 30px;
 
         &:first-child {
-            padding-left: 0;
+            margin-left: 0;
         }
 
         &:hover {
@@ -144,6 +143,21 @@ header, section, footer {
     li {
         display: inline-block;
         margin: 4px;
+        position: relative;
+    }
+
+    span {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        border-radius: 100%;
+        background-color: $orange;
+        size: 24px;
+        text-align: center;
+        line-height: 24px;
+        border: 1px solid #fff;
+        font-weight: 400;
+        font-size: 12px;
     }
 
     a {
@@ -157,6 +171,7 @@ header, section, footer {
 
         img {
             width: 200px;
+            height: 115px;
         }
     }
 }
@@ -238,12 +253,24 @@ header, section, footer {
         display: flex;
         align-items: center;
         border-left: 2px solid $orange;
-        border-bottom: 1px solid #d7d7d7;
+        border-bottom: 1px solid $border;
+
+        &-pl-0 {
+            h2 {
+                padding-left: 0;
+            }
+        }
 
         h2 {
             font-size: 17px;
             letter-spacing: 0.02em;
-            padding-left: 50px;
+            padding-left: 20px;
+        }
+
+        h1 {
+            font-size: 17px;
+            letter-spacing: 0.02em;
+            padding-left: 20px;
         }
 
         &__green {
@@ -263,17 +290,17 @@ header, section, footer {
         overflow: hidden;
         height: calc(100% - 70px);
 
-        img {
-            width: 100%;
-        }
-
-        a {
+        > a {
             display: block;
             position: relative;
             size: 100%;
             background-size: cover;
             background-position: center;
             background-color: $placeholder;
+
+            img {
+                width: 100%;
+            }
 
             &:hover {
                 span {
@@ -305,6 +332,27 @@ header, section, footer {
             color: $blue2;
         }
     }
+}
+
+.video {
+    height: 242px;
+}
+
+.bus {
+    box-shadow: 0 0 0 1px #d7d7d7;
+
+    .box-header {
+        border-bottom: 1px solid #d7d7d7;
+    }
+}
+
+.bus-route {
+    display: flex;
+    padding: 0 20px;
+    font-size: 14px;
+    justify-content: space-between;
+    color: $main-color;
+    font-weight: 400;
 }
 
 #map {
@@ -483,6 +531,7 @@ footer {
 .swiper {
     height: 400px;
     background-color: $placeholder;
+    box-shadow: 0 0 0 1px $border;
 
     .swiper-wrapper {
         background-color: $placeholder;
@@ -580,5 +629,66 @@ footer {
         text-align: center;
         font-weight: 300;
         margin: 0 0 30px 0;
+    }
+}
+
+.info {
+    padding: 20px;
+
+    h2 {
+        font-weight: 300;
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        margin-bottom: 10px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    ul {
+        margin-left: 15px;
+
+        li {
+            position: relative;
+            padding-left: 30px;
+            font-size: 14px;
+            line-height: 26px;
+
+            &:before {
+                content: '';
+                display: block;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                background-color: $orange;
+                position: absolute;
+                left: 0;
+                top: 10px;
+            }
+        }
+    }
+}
+
+.fz16 {
+    font-size: 16px;
+}
+
+.routes {
+    p {
+        font-size: 16px;
     }
 }

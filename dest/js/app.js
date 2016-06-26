@@ -88,7 +88,7 @@
 		.component('hotel', {
 			templateUrl: 'tmpl/hotel.html',
 			controllerAs: 'model',
-			controller: function(dataService) {
+			controller: function(dataService, $timeout) {
 				var model = this;
 				var swiper;
 
@@ -100,11 +100,20 @@
 						.then(function(data) {
 							model.hotel = data;
 
-							swiper = new Swiper('.swiper', {
-								loop: true,
-								speed: 400,
-								nextButton: '.swiper-next',
-								prevButton: '.swiper-prev'
+							$timeout(function() {
+								swiper = new Swiper('.swiper', {
+									speed: 400,
+									nextButton: '.swiper-next',
+									prevButton: '.swiper-prev'
+								});
+
+								if (swiper.slides.length > 1) {
+									swiper.prevButton[0].style.display = 'block';
+									swiper.nextButton[0].style.display = 'block';
+								} else {
+									swiper.prevButton[0].style.display = 'none';
+									swiper.nextButton[0].style.display = 'none';
+								}
 							});
 						});
 				};
@@ -118,7 +127,7 @@
 		.component('room', {
 			templateUrl: 'tmpl/room.html',
 			controllerAs: 'model',
-			controller: function(dataService) {
+			controller: function(dataService, $timeout) {
 				var model = this;
 				var swiper;
 
@@ -133,11 +142,20 @@
 						.then(function(data) {
 							model.room = data;
 
-							swiper = new Swiper('.swiper', {
-								loop: true,
-								speed: 400,
-								nextButton: '.swiper-next',
-								prevButton: '.swiper-prev'
+							$timeout(function() {
+								swiper = new Swiper('.swiper', {
+									speed: 400,
+									nextButton: '.swiper-next',
+									prevButton: '.swiper-prev'
+								});
+
+								if (swiper.slides.length > 1) {
+									swiper.prevButton[0].style.display = 'block';
+									swiper.nextButton[0].style.display = 'block';
+								} else {
+									swiper.prevButton[0].style.display = 'none';
+									swiper.nextButton[0].style.display = 'none';
+								}
 							});
 						});
 				};

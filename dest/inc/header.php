@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/decorate.css">
     <link rel="stylesheet" href="css/dev.css">
+    <link rel="stylesheet" href="css/decorate.css">
 </head>
 <body>
 
@@ -49,17 +49,18 @@
             <div>
                 <ul class="menu">
                     <li>
-                        <a href="">Житло</a>
+                        <a href="http://aveteam.net/work/svi/homes">Житло</a>
                         <ul class="sub-menu">
-                            <li><a href=""><img src="gallery/hotels/temp.jpg" alt=""></a></li>
-                            <li><a href=""><img src="gallery/hotels/temp.jpg" alt=""></a></li>
-                            <li><a href=""><img src="gallery/hotels/temp.jpg" alt=""></a></li>
-                            <li><a href=""><img src="gallery/hotels/temp.jpg" alt=""></a></li>
+                            <li><a href=""><img src="gallery/hotels/b1.jpg" alt=""><span>Б1</span></a></li>
+                            <li><a href=""><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
+                            <li><a href=""><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
+                            <li><a href=""><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="">Про нас</a></li>
-                    <li><a href="">Бронювання</a></li>
-                    <li><a href="">Контакти</a></li>
+                    <li><a href="http://aveteam.net/work/svi/about-svilake">Про нас</a></li>
+                    <li><a href="http://aveteam.net/work/svi/booking">Бронювання</a></li>
+                    <li><a href="http://aveteam.net/work/svi/contacts">Контакти</a></li>
+                    <li><a href="http://aveteam.net/work/svi/routes">Як добратись</a></li>
                 </ul>
             </div>
 
