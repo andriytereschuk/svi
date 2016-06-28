@@ -13,7 +13,9 @@
             <div class="col-xs-6 pr-0">
                 <div class="swiper-container swiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" data-ng-repeat="img in model.hotel.images" data-ng-style="{'background-image':'url({{ img }})'}"></div>
+                        <div class="swiper-slide" data-ng-repeat="img in model.hotel.images">
+                            <img data-ng-src="{{ img }}" alt="">
+                        </div>
                     </div>
                     <div class="swiper-arrow swiper-prev">
                         <i class="icon icon-right-arrow"></i>
@@ -26,7 +28,7 @@
             <div class="col-xs-6 pl-0">
                 <div class="white pb-40">
                     <div class="props">
-                        <div class="center" data-ng-repeat="prop in model.hotel.props">
+                        <div class="center" data-ng-repeat="prop in model.hotel.props track by $index">
                             <i data-ng-class="'icon icon-' + prop"></i>
                             <span>{{ prop | translate }}</span>
                         </div>

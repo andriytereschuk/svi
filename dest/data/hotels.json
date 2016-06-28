@@ -1,30 +1,26 @@
 [
 	{
 		"id": 1,
-		"img": "gallery/hotels/temp.jpg",
-		"roomsCount": 15,
-		"price": 150,
-		"rating": 5
+		"img": "gallery/b1/b1.jpg",
+		"roomsCount": 14,
+		"price": 120
 	},
 	{
 		"id": 2,
-		"img": "gallery/hotels/temp.jpg",
+		"img": "gallery/b2/b2.jpg",
 		"roomsCount": 2,
-		"price": 150,
-		"rating": 5
+		"price": 120
 	},
 	{
 		"id": 3,
-		"img": "gallery/hotels/temp.jpg",
+		"img": "gallery/b3/b3.jpg",
 		"roomsCount": 4,
-		"price": 100,
-		"rating": 4
+		"price": 100
 	},
 	{
 		"id": 4,
-		"img": "gallery/hotels/temp.jpg",
+		"img": "gallery/b4/b4.jpg",
 		"roomsCount": 5,
-		"price": 100,
-		"rating": 4
+		"price": 100
 	}
 ]

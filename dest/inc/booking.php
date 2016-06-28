@@ -4,7 +4,7 @@
             <div class="col-xs-8">
                 <div class="box white">
                     <div class="box-header box-header__green">
-                        <h2>Бронювання</h2>
+                        <h1>Бронювання</h1>
                     </div>
 
                     <div class="box-content">
@@ -29,8 +29,8 @@
 
                     <div class="box-content">
                         <div class="info">
-                            <p><b>Номер картки приватбанку:</b> <span class="fz16">5168 7572 8612 1175</span><br>
-                            <b>Отримувач:</b> <span class="fz16">Терещук Марія Антонівна</span></p>
+                            <p><b>Номер картки приватбанку:</b> <span class="fz15">5168 7572 8612 1175</span><br>
+                            <b>Отримувач:</b> <span class="fz15">Терещук Марія Антонівна</span></p>
                         </div>
                     </div>
                 </div>

@@ -1,10 +1,12 @@
 {
-	"price": 260,
+	"price": 250,
 	"images": [
-		"gallery/hotels/temp.jpg"
+		"gallery/b1/k2.jpg",
+		"gallery/b1/k2-1.jpg"
 	],
 	"props": [
-		"tv",
-		"refrigerator"
+		"doubleBed",
+		"refrigerator",
+		"nightstand"
 	]
 }

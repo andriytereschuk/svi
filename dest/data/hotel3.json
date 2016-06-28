@@ -1,0 +1,47 @@
+{
+	"images": [
+		"gallery/b3/b3.jpg",
+		"gallery/b3/b3-1.jpg",
+		"gallery/b3/b3-2.jpg",
+		"gallery/b3/b3-3.jpg"
+	],
+	"props": [
+		"kiosk",
+		"barbecue",
+		"kitchen",
+		"shower"
+	],
+	"atractions": [
+		"playground",
+		"swing",
+		"tenis",
+		"basketball",
+		"bicycle"
+	],
+	"rooms": [
+		{
+			"id": 1,
+			"price": 300,
+			"count": "2-3",
+			"img": "gallery/b3/k1.jpg"
+		},
+		{
+			"id": 2,
+			"price": 300,
+			"count": "2-3",
+			"img": "gallery/b3/k2.jpg"
+		},
+		{
+			"id": 3,
+			"price": 220,
+			"count": "2",
+			"img": "gallery/b3/k3.jpg"
+		},
+		{
+			"id": 4,
+			"price": 300,
+			"count": "2-3",
+			"img": "gallery/b3/k4.jpg"
+		}
+	]
+}

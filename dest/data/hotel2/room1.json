@@ -1,0 +1,16 @@
+{
+	"price": 350,
+	"images": [
+		"gallery/b2/k1.jpg",
+		"gallery/b2/k1-1.jpg"
+	],
+	"props": [
+		"doubleBed",
+		"foldingChair",
+		"refrigerator",
+		"tb",
+		"table",
+		"nightstand",
+		"chair"
+	]
+}

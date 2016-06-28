@@ -4,7 +4,7 @@
             <div class="col-xs-5">
                 <div class="box white">
                     <div class="box-header">
-                        <h2>Контакти</h2>
+                        <h1>Контакти</h1>
                     </div>
 
                     <div class="box-content">

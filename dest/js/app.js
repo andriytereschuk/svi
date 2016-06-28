@@ -103,6 +103,8 @@
 							$timeout(function() {
 								swiper = new Swiper('.swiper', {
 									speed: 400,
+									loop: true,
+									grabCursor: true,
 									nextButton: '.swiper-next',
 									prevButton: '.swiper-prev'
 								});
@@ -145,6 +147,8 @@
 							$timeout(function() {
 								swiper = new Swiper('.swiper', {
 									speed: 400,
+									loop: true,
+									grabCursor: true,
 									nextButton: '.swiper-next',
 									prevButton: '.swiper-prev'
 								});

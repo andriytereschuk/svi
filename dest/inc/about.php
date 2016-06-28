@@ -4,7 +4,7 @@
             <div class="col-xs-7">
                 <div class="box white">
                     <div class="box-header">
-                        <h2>Про нас</h2>
+                        <h1>Про нас</h1>
                     </div>
 
                     <div class="box-content">
@@ -18,7 +18,7 @@
 
                             <p>На території є <strong>альтанки, мангали</strong>. Можна <strong>купити дрова</strong> та домашні овочі і фрукти.</p>
 
-                            <p>Деталі про будинки, кімнати й умови проживання Ви знайдете в розділі <a href="">"Житло"</a>.</p>
+                            <p>Деталі про будинки, кімнати й умови проживання Ви знайдете в розділі <a href="http://aveteam.net/work/svi/homes">"Житло"</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -35,6 +35,8 @@
                             <p>Озеро Світязь - <strong>найглибше</strong> озеро України. Входить до Шацького поозер'я і охороняється законом України.
                                 Вода в ньому багата на <strong>срібло і гліцерин</strong>, має лікальні властивості.</p>
                             <p>За останні роки відпочинку на Світязі надають перевагу не тільки українці, але й гості із <strong>Західної Європи</strong> та <strong>Білорусії</strong>.</p>
+
+                            <iframe width="431" height="242" src="https://www.youtube.com/embed/ALPD2ZF9bqk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

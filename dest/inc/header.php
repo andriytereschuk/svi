@@ -22,7 +22,7 @@
     <div class="wrap container">
         <div class="row between-xs middle-xs m-0">
             <div>
-                <a href="">
+                <a href="http://aveteam.net/work/svi/">
                     <img src="images/logo.png" alt="">
                 </a>
             </div>
@@ -51,10 +51,10 @@
                     <li>
                         <a href="http://aveteam.net/work/svi/homes">Житло</a>
                         <ul class="sub-menu">
-                            <li><a href=""><img src="gallery/hotels/b1.jpg" alt=""><span>Б1</span></a></li>
-                            <li><a href=""><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
-                            <li><a href=""><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
-                            <li><a href=""><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
+                            <li><a href="http://aveteam.net/work/svi/homes/1"><img src="gallery/hotels/b1.jpg" alt=""><span>Б1</span></a></li>
+                            <li><a href="http://aveteam.net/work/svi/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
+                            <li><a href="http://aveteam.net/work/svi/homes/3"><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
+                            <li><a href="http://aveteam.net/work/svi/homes/4"><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
                         </ul>
                     </li>
                     <li><a href="http://aveteam.net/work/svi/about-svilake">Про нас</a></li>
@@ -66,8 +66,8 @@
 
             <div class="social-links">
                 <a href="http://vk.com/svilake" class="icon icon-vk" target="_blank"></a>
-                <a href="http://youtube.com/svilake" class="icon icon-youtube ml-20" target="_blank"></a>
-                <a href="/" class="icon icon-home ml-20"></a>
+                <a href="http://vk.com/videos-3384529" class="icon icon-youtube ml-20" target="_blank"></a>
+                <a href="http://aveteam.net/work/svi/" class="icon icon-home ml-20"></a>
             </div>
         </div>
     </nav>
