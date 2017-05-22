@@ -1,6 +1,8 @@
 .wrap {
     box-sizing: border-box;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    width: 1200px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -284,6 +286,8 @@
       -ms-flex-order: 1;
           order: 1;
 }
+
+/*
 
 @media only screen and (min-width: 48em) {
   .container {
@@ -995,3 +999,4 @@
             order: 1;
   }
 }
+*/

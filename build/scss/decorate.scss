@@ -6,6 +6,14 @@
     float: right;
 }
 
+.clr {
+    clear: both;
+}
+
+.relative {
+    position: relative;
+}
+
 .align-center {
     text-align: center;
 }
@@ -34,6 +42,22 @@
 
 .p-0 {
     padding: 0;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pl-0 {
+    padding-left: 0;
 }
 
 .mt-5 {
@@ -162,4 +186,36 @@
 
 .pl-40 {
     padding-left: 40px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mr-60 {
+    margin-right: 60px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pr-60 {
+    padding-right: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pl-60 {
+    padding-left: 60px;
 }

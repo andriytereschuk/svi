@@ -1,0 +1,37 @@
+<section>
+    <div class="wrap container pt-10">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumbs">
+                    <li>
+                    <li><span translate="builds"></span></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pt-10">
+            <div class="col-xs-6" data-ng-repeat="hotel in model.hotels">
+                <div class="box box-size-4 white">
+                    <div class="box-header box-col">
+                        <div>
+                            <div>{{ 'build' | translate }}: <b>{{ hotel.id }}</b></div>
+                            <div data-ng-if="hotel.roomsCount">{{ 'rooms' | translate }}: <b>{{ hotel.roomsCount }}</b></div>
+                        </div>
+                        <div>
+                            <div>{{ 'prices' | translate }}: <b>{{ 'from' | translate }} {{ hotel.price }} {{ 'curency' | translate }}</b></div>
+                        </div>
+                    </div>
+
+                    <div class="box-content">
+                        <a href data-ng-link="['Hotel', {id: hotel.id}]">
+                            <img data-ng-src="{{hotel.img}}" alt="">
+                            <span class="box-overlay center">
+                                <i class="icon icon-plus"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

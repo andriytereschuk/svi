@@ -1,0 +1,58 @@
+{
+	"images": [
+		"gallery/b1/b1-6.jpg",
+		"gallery/b1/b1.jpg",
+		"gallery/b1/b1-1.jpg",
+		"gallery/b1/b1-2.jpg",
+		"gallery/b1/b1-3.jpg",
+		"gallery/b1/b1-4.jpg",
+		"gallery/b1/b1-5.jpg"
+	],
+	"props": [
+		"wifi",
+		"kiosk",
+		"barbecue",
+		"kitchen",
+		"shower",
+		"tv"
+	],
+	"atractions": [
+		"playground",
+		"swing",
+		"tenis",
+		"basketball",
+		"bicycle"
+	],
+	"rooms": [
+		{
+			"id": "Double",
+			"price": 250,
+			"count": "2",
+			"img": "gallery/b1/k10.jpg"
+		},
+		{
+			"id": "Triple",
+			"price": 350,
+			"count": "3",
+			"img": "gallery/b1/k1-2.jpg"
+		},
+		{
+			"id": "A1",
+			"price": 450,
+			"count": "4",
+			"img": "gallery/b1/k11.jpg"
+		},
+		{
+			"id": "A2",
+			"price": 450,
+			"count": "4",
+			"img": "gallery/b1/k12.jpg"
+		},
+		{
+			"id": "A4",
+			"price": 800,
+			"count": "6-8",
+			"img": "gallery/b1/k14.jpg"
+		}
+	]
+}

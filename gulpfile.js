@@ -32,7 +32,7 @@ gulp.task('css', function () {
 gulp.task('default', ['css'], function () {
 
     browserSync.init({
-        proxy: 'http://localhost/svi'
+        proxy: 'http://127.0.0.1/edsa-dev/svi/'
         // proxy: 'http://svi.com/'
     });
 
@@ -57,4 +57,13 @@ gulp.task('iconfont', function () {
             normalize: true
         }))
         .pipe(gulp.dest('dest/fonts'));
+});
+
+gulp.task('min', function() {
+    var processors = [
+        cssnano(),
+    ];
+    return gulp.src('./build/scss/site.css')
+        .pipe(postcss(processors))
+        .pipe(gulp.dest('./dest/css/'));
 });

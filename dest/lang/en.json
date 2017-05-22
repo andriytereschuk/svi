@@ -1,0 +1,30 @@
+[
+  {
+    "build": "Building",
+    "builds": "Buildings",
+    "room": "Room",
+    "rooms": "Rooms",
+    "price": "Price",
+    "count": "Number",
+    "curency": "UAH",
+    "priceNote": " for number ",
+    "roomProps": "in the room",
+
+    "wifi": "WiFi",
+    "kiosk": "Summerhouses",
+    "barbecue": "Barbecue",
+    "kitchen": "Kitchen",
+    "shower": "Hot water",
+    "tv": "TV",
+    "refrigerator": "Fridge",
+
+    "atractions": "Entertainment",
+    "descHotel1": "<p>Two-storeyed building with all accommodations </p>",
+
+    "playground": "Playground",
+    "voleyball": "Volleyball",
+    "swing": "Swing",
+    "basketball": "Basketball",
+    "bicycle": "Bicycles hiring"
+  }
+]

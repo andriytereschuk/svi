@@ -1,0 +1,16 @@
+{
+	"price": 450,
+	"images": [
+		"gallery/b1/k12.jpg",
+		"gallery/b1/k11-1.jpg"
+	],
+	"props": [
+		"doubleBed",
+		"halfBed2",
+		"refrigerator",
+		"tb",
+		"table",
+		"cupboard",
+		"chair"
+	]
+}

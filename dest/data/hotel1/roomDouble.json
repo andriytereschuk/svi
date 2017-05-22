@@ -1,0 +1,17 @@
+{
+	"price": 250,
+	"images": [
+		"gallery/b1/k10.jpg",
+		"gallery/b1/k10-1.jpg",
+		"gallery/b1/k5.jpg",
+		"gallery/b1/k5-1.jpg",
+		"gallery/b1/k13.jpg",
+		"gallery/b1/k13-1.jpg"
+	],
+	"props": [
+		"doubleBed",
+		"refrigerator",
+		"tb",
+		"nightstand"
+	]
+}

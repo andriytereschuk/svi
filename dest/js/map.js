@@ -1,12 +1,14 @@
 var map = document.getElementById('map');
 
 function init() {
-    var center = new google.maps.LatLng(51.486990, 23.858008);
+    var center = new google.maps.LatLng(51.486990, 23.848008);
 
     var settings = {
         center: center,
         zoom: 14,
+        scrollwheel: false,
         disableDefaultUI: true,
+        zoomControl: true,
         styles: [
             {
                 "featureType": "landscape.natural",
@@ -85,8 +87,8 @@ function init() {
     };
 
     var places = [
-        ['Набережна, 45', 51.486050, 23.863358, 1, 'images/marker1.png'],
-        ['Набережна, 29', 51.486450, 23.858460, 1, 'images/marker2.png'],
+        ['Набережна, 45', 51.486100, 23.863358, 1, 'images/marker1.png'],
+        ['Набережна, 29', 51.486440, 23.858460, 1, 'images/marker2.png'],
         ['Пляж', 51.488150, 23.854300, 1, 'images/beach-marker.png'],
         ['Пляж', 51.490200, 23.856800, 1, 'images/beach-marker.png'],
         ['Пляж', 51.492060, 23.863220, 1, 'images/beach-marker.png'],
