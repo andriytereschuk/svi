@@ -1,13 +1,19 @@
+    <base href="http://localhost:3000/edsa-dev/svi/dest/"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
     <meta name="author" content="Андрій Терещук">
     <meta name="robots" content="all">
-    <meta name="viewport" content="width=1240">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="shortcut icon" href="images/favicon.ico"/>
 
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/dev.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/decorate.css">
 </head>
 <body>
 
@@ -19,7 +25,7 @@
     <div class="wrap container">
         <div class="row between-xs middle-xs m-0">
             <div>
-                <a href="http://svilake.com">
+                <a href="/">
                     <img src="images/logo.png" alt="">
                 </a>
             </div>
@@ -31,7 +37,7 @@
                 <div class="lang pull-left flex ml-20" id="lang">
                     <i class="icon icon-land"></i>
                     <div class="lang-current ml-5">UA</div>
-                    <a href="http://svilake.com/ru/" class="lang-item">RU</a>
+                    <a href="/ru/" class="lang-item">RU</a>
                     <div class="lang-arrow ml-5"></div>
                 </div>
             </div>
@@ -45,19 +51,19 @@
             <div>
                 <ul class="menu">
                     <li>
-                        <a href="http://svilake.com/homes">Житло</a>
+                        <a href="/homes">Житло</a>
                         <ul class="sub-menu">
-                            <li><a href="http://svilake.com/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Б1</span></a></li>
-                            <li><a href="http://svilake.com/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
-                            <li><a href="http://svilake.com/homes/3"><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
-                            <li><a href="http://svilake.com/homes/4"><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
+                            <li><a href="/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Б1</span></a></li>
+                            <li><a href="/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
+                            <li><a href="/homes/3"><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
+                            <li><a href="/homes/4"><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
                         </ul>
                     </li>
-                    <li><a href="http://svilake.com/about-svilake">Про нас</a></li>
-                    <li><a href="http://svilake.com/booking">Бронювання</a></li>
-                    <li><a href="http://svilake.com/contacts">Контакти</a></li>
-                    <li><a href="http://svilake.com/routes">Як добратись</a></li>
-                    <li><a href="http://svilake.com/trips">Екскурсії</a></li>
+                    <li><a href="/about-svilake">Про нас</a></li>
+                    <li><a href="/booking">Бронювання</a></li>
+                    <li><a href="/contacts">Контакти</a></li>
+                    <li><a href="/routes">Як добратись</a></li>
+                    <li><a href="/trips">Екскурсії</a></li>
                 </ul>
             </div>
 

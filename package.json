@@ -1,12 +1,12 @@
 {
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "browser-sync": "latest",
+    "browser-sync": "2.12.10",
     "cssnano": "^3.6.2",
-    "gulp": "latest",
-    "gulp-iconfont": "latest",
-    "gulp-iconfont-css": "latest",
-    "gulp-postcss": "latest",
+    "gulp": "3.9.1",
+    "gulp-iconfont": "8.0.0",
+    "gulp-iconfont-css": "2.1.0",
+    "gulp-postcss": "6.1.1",
     "gulp-rename": "^1.2.2",
     "postcss-short": "^1.4.0",
     "precss": "^1.4.0"

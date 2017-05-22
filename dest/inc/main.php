@@ -10,7 +10,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/homes/1">
+                                <a href="/homes/1">
                                     <img src="gallery/b1/b1-6.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -35,7 +35,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/homes/1/rooms/Double">
+                                <a href="/homes/1/rooms/Double">
                                     <img src="gallery/b1/k10.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -60,7 +60,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/homes/2/rooms/1">
+                                <a href="/homes/2/rooms/1">
                                     <img src="gallery/b2/k1.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -85,7 +85,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/homes/1/rooms/A1">
+                                <a href="/homes/1/rooms/A1">
                                     <img src="gallery/b1/k11.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -110,7 +110,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/homes/1/rooms/A4">
+                                <a href="/homes/1/rooms/A4">
                                     <img src="gallery/b1/k14.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -131,7 +131,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/routes">
+                                <a href="/routes">
                                     <img class="mt-10" src="images/multivan.png" alt="">
                                     <span class="bus-route"><span>Львів - Шацьк</span> <span>Шацьк - Львів</span></span>
                                     <span class="box-overlay center">
@@ -149,7 +149,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/about-svilake" class="hidden middle-xs center-xs video-wrap">
+                                <a href="/about-svilake" class="hidden middle-xs center-xs video-wrap">
                                     <video id="video" class="video" loop autoplay>
                                         <source src="video/v.webm" type='video/webm' />
                                         <source src="video/v.mp4" type='video/mp4' />
@@ -173,7 +173,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="row">
                     <div class="col-xs-12">
                         <div class="box box-size-4 white">
                             <div class="box-header">
@@ -184,14 +186,6 @@
                                 <?php include_once('inc/map.php'); ?>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-xs-12">
-                        <script src="//vk.com/js/api/openapi.js?113"></script>
-                        <div id="vk_groups" class="mb-20"></div>
-                        <script>
-                        VK.Widgets.Group("vk_groups", {mode: 0, width: "570", height: "250", color1: 'FFFFFF', color2: '909090', color3: 'ffa602'}, 3384529);
-                        </script>
                     </div>
                 </div>
             </div>

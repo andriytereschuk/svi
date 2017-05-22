@@ -1,0 +1,13 @@
+$md: 1219px;
+$sm: 767px;
+$xs: 359px;
+
+@media (max-width: $md) {
+  .wrap {
+    width: 100%;
+  }
+
+  .box {
+      margin-bottom: 10px;
+  }
+}

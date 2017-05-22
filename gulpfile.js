@@ -11,12 +11,11 @@ var browserSync = require('browser-sync').create();
 var iconfontCss = require('gulp-iconfont-css');
 var iconfont = require('gulp-iconfont');
 
-gulp.task('css', function () {
+gulp.task('css', function() {
     var processors = [
         precss,
         short,
-        autoprefixer({ browsers: ['last 2 version'] }),
-        // cssnano(),
+        autoprefixer({ browsers: ['last 2 version'] })
     ];
     return gulp.src('./build/scss/*.scss')
         .pipe(postcss(processors))
@@ -24,12 +23,12 @@ gulp.task('css', function () {
             extname: ".css"
         }))
         .pipe(gulp.dest('./dest/css/'))
-        .pipe(browserSync.stream());;
+        .pipe(browserSync.stream());
 })
 
 
 // Static Server + watching scss/html files
-gulp.task('default', ['css'], function () {
+gulp.task('default', ['css'], function() {
 
     browserSync.init({
         proxy: 'http://127.0.0.1/edsa-dev/svi/'
@@ -44,7 +43,7 @@ gulp.task('default', ['css'], function () {
 // svg to font and generate scss
 var fontName = 'icons';
 
-gulp.task('iconfont', function () {
+gulp.task('iconfont', function() {
     gulp.src(['build/svg/*.svg'], { base: './' })
         .pipe(iconfontCss({
             fontName: fontName,
