@@ -212,10 +212,6 @@ header, section, footer {
     }
 }
 
-#vk_groups {
-    box-shadow: 0 0 0 1px $border;
-}
-
 .social-links {
     .icon {
         color: #fff;
@@ -632,15 +628,13 @@ footer {
 }
 
 .info {
+    padding: 20px;
+
     h1 {
         text-align: center;
         font-weight: 300;
         margin: 0 0 30px 0;
     }
-}
-
-.info {
-    padding: 20px;
 
     h2 {
         font-weight: 300;
