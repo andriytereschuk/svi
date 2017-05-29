@@ -1,9 +1,9 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="box box-size-4 white">
                             <div class="box-header">
                                 <h2>Горячие предложения</h2>
@@ -20,7 +20,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -45,7 +45,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -95,7 +95,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -122,9 +122,9 @@
                 </div>
             </div>
 
-            <div class="col-xs-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="row">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white bus">
                             <div class="box-header box-header-pl-0 box-header__violet box-col">
                                 <h2>Экспресс микроавтобус</h2>
@@ -142,7 +142,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header-pl-0 box-header__violet box-col">
                                 <h2>Открой для себя Свитязь</h2>
@@ -184,14 +184,6 @@
                                 <?php include_once('inc/map.php'); ?>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-xs-12">
-                        <script src="//vk.com/js/api/openapi.js?113"></script>
-                        <div id="vk_groups" class="mb-20"></div>
-                        <script>
-                        VK.Widgets.Group("vk_groups", {mode: 0, width: "570", height: "250", color1: 'FFFFFF', color2: '909090', color3: 'ffa602'}, 3384529);
-                        </script>
                     </div>
                 </div>
             </div>

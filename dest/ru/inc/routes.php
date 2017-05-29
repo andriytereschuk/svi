@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-8">
+            <div class="col-xs-12 col-md-8">
                 <div class="box white">
                     <div class="box-header">
                         <h1>Как добраться до Свитязя и Шацка</h1>
@@ -9,7 +9,7 @@
 
                     <div class="box-content">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6">
                                 <div class="info">
                                     <h2>Доезд до Шацка, Свитязя, Гряды, Медика, санатория "Лесная песня" , пансионата "Шацкие озера".</h2>
 
@@ -23,15 +23,27 @@
                                        <li><b>К-во мест:</b> <span>7</span></li>
                                        <li><b>Комфорт:</b> <span>Кондиционер</span></li>
                                        <li><b>Время в пути:</b> <span>3 - 3:30 часов</span></li>
-                                       <li><b>Цена:</b> <span>130 грн</span></li>
+                                       <li><b>Цена:</b> <span>150 грн</span></li>
                                        <li><b>Телефоны:</b> <span><b>(097)</b> 654 1951, <b>(063)</b> 795 2131</span></li>
                                        <!-- li><b>Дзвонить:</b> 12:00 - 15:00, 21:00 - 23:00</li -->
                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6">
                                 <div class="info pr-0">
                                     <img class="mt-40" src="images/multivan.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="info">
+                                   <ul>
+                                       <li><b>Развозка:</b> <span>Шацк, Свитязь, пансионат "Шацькие озера" <b>(без доплати)</b></span>
+                                            <br>
+                                            <span style="padding-left:85px">Гряда, Медик, "Лесовая Песня", Мельники <b>(за дополнительную плату)</b></span>
+                                       </li>
+                                   </ul>
                                 </div>
                             </div>
                         </div>

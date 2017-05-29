@@ -87,7 +87,7 @@ $blue: #3fb5de;
       margin-left: 0;
       height: auto;
       line-height: 1;
-      margin: 6px 0;
+      margin: 10px 0;
 
       a {
         padding: 5px 10px;
@@ -100,13 +100,14 @@ $blue: #3fb5de;
 
   .icon-menu {
     color: #fff;
-    margin-top: 3px;
+    margin-top: 4px;
+    font-size: 22px;
   }
 
   .icon-close {
     display: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 4px;
   }
 
@@ -182,6 +183,41 @@ $blue: #3fb5de;
 
   .swiper {
     height: 260px;
+  }
+
+  .social-links  {
+    > a {
+      display: none;
+    }
+  }
+
+  .tel {
+    display: flex;
+    color: #fff;
+    position: relative;
+    top: 1px;
+
+    a {
+      display: block;
+      display: flex;
+      align-items: center;
+
+      &:first-child {
+        margin-right: 15px;
+      }
+
+      .icon-star {
+        font-size: 20px;
+        position: relative;
+        top: -1px;
+      }
+
+      span {
+        color: #fff;
+        font-size: 14px;
+        letter-spacing: 0.4px;
+      }
+    }
   }
 }
 

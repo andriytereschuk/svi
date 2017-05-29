@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-8">
+            <div class="col-xs-12 col-sm-6 col-md-8">
                 <div class="box white">
                     <div class="box-header box-header__green">
                         <h1>Бронирование</h1>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-4">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                  <div class="box white">
                     <div class="box-header box-header__violet">
                         <h2>Реквизиты</h2>

@@ -1,14 +1,14 @@
 <section>
     <div class="wrap container pt-40">
         <div class="row">
-            <div class="col-xs-6">
+            <div class="col-xs-12 col-sm-6">
                 <section class="box white">
                     <div class="box-header box-header__green">
                         <h1>Екскурсія "Брестська крепость, Брест, Біловезька Пуща"</h1>
                     </div>
 
                     <div class="box-content">
-                        <div class="info">
+                        <div class="info full-width">
                             <img class="mb-20" src="gallery/excursions/brest-zvezda.jpg" alt="">
                             <p>Поїздка триває з <strong>6:30 - 21:00</strong>. Для перетину митниці потрібні українські внутрішні або закордонні паспорти <strong>(для дітей проїздний документ або закордонний паспорт)</strong>.</p>
                             <p>Протягом дня побачите красоти <strong>міста Брест, Брестської Крепості, Біловезької Пущі</strong>.</p>
@@ -27,14 +27,14 @@
                 </section>
             </div>
 
-            <div class="col-xs-6">
+            <div class="col-xs-12 col-sm-6">
                 <section class="box white">
                     <div class="box-header box-header__blue">
                         <h1>Поїздка по Шацьким озерам + Петропавлівський монастир</h1>
                     </div>
 
                     <div class="box-content">
-                        <div class="info">
+                        <div class="info full-width">
                             <img class="mb-20" src="gallery/excursions/discover-shatsk.jpg" alt="">
                             <b>Маршрут екскурсії:</b><br>
                             <ul class="mb-10 mt-5">

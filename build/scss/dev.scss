@@ -85,6 +85,7 @@ header, section, footer {
 #menu {
     background-color: $blue;
     height: 66px;
+    z-index: 3;
 }
 
 .menu {
@@ -234,14 +235,6 @@ header, section, footer {
     .icon {
         color: #fff;
     }
-
-    a {
-        margin-top: 3px;
-
-        &.icon-home {
-            margin-top: 0;
-        }
-    }
 }
 
 .video-wrap {
@@ -390,6 +383,7 @@ footer {
 .props {
     padding: 20px 0;
     display: flex;
+    justify-content: center;
 
     .center {
         flex-direction: column;
@@ -710,4 +704,25 @@ footer {
     p {
         font-size: 16px;
     }
+}
+
+.full-width {
+    img {
+        width: 100%;
+    }
+}
+
+.icon-facebook {
+    font-size: 22px;
+    margin-top: 1px;
+    margin-right: 14px;
+}
+
+.icon-vk {
+    top: 4px;
+    position: relative;
+}
+
+.tel {
+    display: none;
 }

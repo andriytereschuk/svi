@@ -37,7 +37,7 @@
                 <div class="lang pull-left flex ml-20" id="lang">
                     <i class="icon icon-land"></i>
                     <div class="lang-current ml-5">UA</div>
-                    <a href="/ru/" class="lang-item">RU</a>
+                    <a href="/ru" class="lang-item">RU</a>
                     <div class="lang-arrow ml-5"></div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                 </label>
                 <ul class="menu">
                     <li>
-                        <a href="#">Житло</a>
+                        <a href onclick="return false;">Житло</a>
                         <ul class="sub-menu">
                             <li><a href="/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Б1</span></a></li>
                             <li><a href="/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
@@ -73,9 +73,19 @@
             </div>
 
             <div class="social-links">
-                <a href="http://vk.com/svilake" class="icon icon-vk" target="_blank"></a>
-                <a href="http://vk.com/videos-3384529" class="icon icon-youtube ml-20" target="_blank"></a>
-                <a href="http://svilake.com" class="icon icon-home ml-20"></a>
+                <div class="tel">
+                    <a href="tel:+380976541951">
+                        <i class="icon icon-star mr-5"></i>
+                        <span>0976541951</span>
+                    </a>
+                    <a href="tel:+380637952131">
+                        <img class="mr-5" src="images/life.png" alt="">
+                        <span>0637952131</span>
+                    </a>
+                </div>
+                <a href="https://www.facebook.com/groups/svilake/" class="icon icon-facebook" target="_blank" title="група у Facebook"></a>
+                <a href="http://vk.com/svilake" class="icon icon-vk" target="_blank" title="група у VK"></a>
+                <a href="/" class="icon icon-home ml-20" title="на Головну"></a>
             </div>
         </div>
     </nav>

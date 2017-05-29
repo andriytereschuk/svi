@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-7">
+            <div class="col-xs-12 col-sm-6 col-md-7">
                 <div class="box white">
                     <div class="box-header">
                         <h1>О нас</h1>
@@ -18,13 +18,13 @@
 
                             <p>На территории есть <strong>беседки, мангалы </strong>. Можно <strong>купить дрова</strong> и домашние овощи и фрукты.</p>
 
-                            <p>Детали о домах, комнаты и условия проживания Вы найдете в разделе <a href="http://svilake.com/ru/homes">"Жилье"</a>.</p>
+                            <p>Детали о домах, комнаты и условия проживания Вы найдете в разделе <a href="/ru/homes">"Жилье"</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-5">
+            <div class="col-xs-12 col-sm-6 col-md-5">
                 <div class="box white">
                     <div class="box-header box-header__blue">
                         <h2>о Свитязе</h2>
@@ -36,7 +36,7 @@
                             Вода в нем богата на <strong>серебро и глицерин</strong>, имеет лечебные свойства.</p>
                             <p>За последние годы отдых на Свитязе предпочитают не только украинцы, но и гости из <strong>Западной Европы</strong> и <strong>Белоруссии</strong>.</p>
 
-                            <iframe width="431" height="242" src="https://www.youtube.com/embed/ALPD2ZF9bqk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="100%" height="242" src="https://www.youtube.com/embed/ALPD2ZF9bqk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

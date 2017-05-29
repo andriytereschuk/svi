@@ -1,5 +1,5 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
             <div class="col-xs-12 col-md-5">
                 <div class="box white">

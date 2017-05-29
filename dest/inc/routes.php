@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-8 col-xs-8 col-xs-8">
+            <div class="col-xs-12 col-md-8">
                 <div class="box white">
                     <div class="box-header">
                         <h1>Як добратись до Світязя і Шацька</h1>
@@ -23,7 +23,7 @@
                                        <li><b>К-сть місць:</b> <span>7</span></li>
                                        <li><b>Комфорт:</b> <span>Кондиціонер</span></li>
                                        <li><b>Час в дорозі:</b> <span>3 - 3:30 годин</span></li>
-                                       <li><b>Ціна:</b> <span>130 грн</span></li>
+                                       <li><b>Ціна:</b> <span>150 грн</span></li>
                                        <li><b>Телефони:</b> <span><b>(097)</b> 654 1951, <b>(063)</b> 795 2131</span></li>
                                        <!-- li><b>Телефонувати:</b> 12:00 - 15:00, 21:00 - 23:00</li -->
                                    </ul>

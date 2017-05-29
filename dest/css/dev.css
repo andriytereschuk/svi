@@ -68,6 +68,7 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
 #menu {
     background-color: #3fb5de;
     height: 66px;
+    z-index: 3;
 }
 
 .menu > li {
@@ -214,14 +215,6 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
 
 .social-links .icon {
     color: #fff;
-}
-
-.social-links a {
-    margin-top: 3px
-}
-
-.social-links a.icon-home{
-    margin-top: 0;
 }
 
 .video-wrap {
@@ -379,6 +372,8 @@ footer {
     padding: 20px 0;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
 }
 
 .props .center {
@@ -669,4 +664,23 @@ footer {
 
 .routes p {
     font-size: 16px;
+}
+
+.full-width img {
+    width: 100%;
+}
+
+.icon-facebook {
+    font-size: 22px;
+    margin-top: 1px;
+    margin-right: 14px;
+}
+
+.icon-vk {
+    top: 4px;
+    position: relative;
+}
+
+.tel {
+    display: none;
 }
