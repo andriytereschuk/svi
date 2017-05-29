@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/dev.css">
-    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/decorate.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
@@ -24,7 +24,7 @@
 <header>
     <div class="wrap container">
         <div class="row between-xs middle-xs m-0">
-            <div>
+            <div class="logo">
                 <a href="/">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -32,7 +32,7 @@
             <div>
                 <div class="place pull-left flex ml-10">
                     <i class="icon icon-phone"></i>
-                    <span class="ml-5"><b>(097)</b> 654 1951, <b class="pl-5">(063)</b> 795 2131</span>
+                    <span class="phones ml-5"><b>(097)</b> 654 1951, <b class="pl-5">(063)</b> 795 2131</span>
                 </div>
                 <div class="lang pull-left flex ml-20" id="lang">
                     <i class="icon icon-land"></i>
@@ -49,9 +49,14 @@
     <nav class="wrap container">
         <div class="row between-xs middle-xs m-0">
             <div>
+                <input type="checkbox" id="menu-check">
+                <label for="menu-check">
+                    <div class="icon icon-menu"></div>
+                    <div class="icon icon-close"></div>
+                </label>
                 <ul class="menu">
                     <li>
-                        <a href="/homes">Житло</a>
+                        <a href="#">Житло</a>
                         <ul class="sub-menu">
                             <li><a href="/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Б1</span></a></li>
                             <li><a href="/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>

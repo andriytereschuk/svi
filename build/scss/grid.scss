@@ -1,11 +1,11 @@
-$md: 1220px;
+$md: 1240px;
 $sm: 768px;
 $xs: 360px;
 
 .wrap {
     box-sizing: border-box;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -274,7 +274,11 @@ $xs: 360px;
           order: 1;
 }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: $sm) {
+  .wrap {
+    padding: 0 20px;
+  }
+
   .col-sm,
   .col-sm-1,
   .col-sm-2,
@@ -505,7 +509,8 @@ $xs: 360px;
 
 @media only screen and (min-width: $md) {
   .wrap {
-      width: $md;
+      width: 1200px;
+      padding: 0 20px;
   }
 
   .col-md,

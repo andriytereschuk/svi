@@ -1,7 +1,7 @@
 <section>
     <div class="wrap container pt-40">
         <div class="row">
-            <div class="col-xs-8">
+            <div class="col-xs-8 col-xs-8 col-xs-8">
                 <div class="box white">
                     <div class="box-header">
                         <h1>Як добратись до Світязя і Шацька</h1>
@@ -9,7 +9,7 @@
 
                     <div class="box-content">
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6">
                                 <div class="info">
                                     <h2>Доїзд до Шацька, Світязя, Гряди, Медика, Лісова пісня, пансіонат "Шацькі озера".</h2>
 
@@ -29,7 +29,7 @@
                                    </ul>
                                 </div>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-12 col-md-6">
                                 <div class="info pr-0">
                                     <img class="mt-40" src="images/multivan.png" alt="">
                                 </div>

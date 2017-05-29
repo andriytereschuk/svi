@@ -1,9 +1,210 @@
-$md: 1219px;
+$md: 1239px;
 $sm: 767px;
-$xs: 359px;
+$xs: 414px;
+
+$blue: #3fb5de;
 
 @media (max-width: $md) {
   .menu > li {
     margin-left: 20px;
+  }
+
+  .box {
+    height: auto;
+  }
+
+  #map {
+    height: 250px;
+  }
+
+  .video {
+    height: auto;
+    margin: -44px 0;
+  }
+
+  .props {
+    .center {
+      margin: 0 15px;
+    }
+    span {
+      display: none;
+    }
+  }
+
+  .swiper {
+    height: 260px;
+  }
+}
+
+@media (max-width: $sm) {
+  .lang-item {
+      width: auto;
+      margin-left: 5px;
+      opacity: 1;
+      cursor: pointer;
+  }
+
+  .lang:hover {
+    .lang-item {
+      width: auto;
+    }
+  }
+
+  .lang-arrow {
+    display: none;
+  }
+
+  .logo {
+      img {
+          height: 32px;
+      }
+  }
+
+  .xs-pt-20 {
+    padding-top: 20px;
+  }
+
+  .place {
+    display: none;
+  }
+
+  #menu {
+    height: 42px;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    right: 0;
+    background-color: $blue;
+    z-index: 2;
+    padding: 5px 0 10px 0;
+
+    & > li {
+      display: block;
+      margin-left: 0;
+      height: auto;
+      line-height: 1;
+      margin: 6px 0;
+
+      a {
+        padding: 5px 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .icon-menu {
+    color: #fff;
+    margin-top: 3px;
+  }
+
+  .icon-close {
+    display: none;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 4px;
+  }
+
+  #menu-check, #menu-check + label {
+    display: inline;
+  }
+
+  #menu-check {
+    opacity: 0;
+  }
+
+  #menu-check:checked + label {
+    & .icon-menu {
+      display: none;
+    }
+
+    & .icon-close {
+      display: block;
+    }
+
+    & + .menu {
+      display: block;
+    }
+  }
+
+  .menu > li:hover > a:before {
+    display: none;
+  }
+
+  .sub-menu {
+    position: static;
+    width: 100%;
+    background-color: $blue;
+    border: none;
+    margin: 10px 0 0;
+    padding: 0;
+
+    span {
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      top: 7px;
+      right: 7px;
+      font-size: 11px;
+    }
+
+    li {
+      width: 48.5%;
+      margin: 0 0 1% 1%;
+
+      a {
+        background-color: #fff;
+        padding: 5px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .photo-slider {
+    padding-left: 0;
+  }
+
+  .info-section {
+    padding-right: 0;
+  }
+
+  .swiper {
+    height: 260px;
+  }
+}
+
+@media (max-width: $xs) {
+  .props .center {
+      margin: 0 13px;
+  }
+
+  .room-title h1 {
+    font-size: 26px;
+  }
+
+  .room-price {
+    height: 50px;
+    padding: 0 16px;
+    line-height: 50px;
+
+    &__value {
+      font-size: 26px;
+    }
+
+    &__curency {
+      font-size: 20px;
+    }
   }
 }

@@ -24,58 +24,66 @@
 	content: "\E001";
 }
 
-.icon-home:before {
+.icon-close:before {
 	content: "\E002";
 }
 
-.icon-kiosk:before {
+.icon-home:before {
 	content: "\E003";
 }
 
-.icon-kitchen:before {
+.icon-kiosk:before {
 	content: "\E004";
 }
 
-.icon-land:before {
+.icon-kitchen:before {
 	content: "\E005";
 }
 
-.icon-next:before {
+.icon-land:before {
 	content: "\E006";
 }
 
-.icon-phone:before {
+.icon-menu:before {
 	content: "\E007";
 }
 
-.icon-place:before {
+.icon-next:before {
 	content: "\E008";
 }
 
-.icon-plus:before {
+.icon-phone:before {
 	content: "\E009";
 }
 
-.icon-right-arrow:before {
+.icon-place:before {
 	content: "\E00A";
 }
 
-.icon-shower:before {
+.icon-plus:before {
 	content: "\E00B";
 }
 
-.icon-tv:before {
+.icon-right-arrow:before {
 	content: "\E00C";
 }
 
-.icon-vk:before {
+.icon-shower:before {
 	content: "\E00D";
 }
 
-.icon-wifi:before {
+.icon-tv:before {
 	content: "\E00E";
 }
 
-.icon-youtube:before {
+.icon-vk:before {
 	content: "\E00F";
+}
+
+.icon-wifi:before {
+	content: "\E010";
+}
+
+.icon-youtube:before {
+	content: "\E011";
 }

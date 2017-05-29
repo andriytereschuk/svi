@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
                         <div class="box box-size-4 white">
@@ -20,7 +20,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -45,7 +45,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -70,7 +70,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -95,7 +95,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header__blue box-col">
                                 <div>
@@ -122,9 +122,9 @@
                 </div>
             </div>
 
-            <div class="col-xs-6 col-sm-6 col-md-6">
+            <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white bus">
                             <div class="box-header box-header-pl-0 box-header__violet box-col">
                                 <h2>Експрес мікроавтобус</h2>
@@ -142,7 +142,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
                         <div class="box box-size-2 white">
                             <div class="box-header box-header-pl-0 box-header__violet box-col">
                                 <h2>Відкрий для себе Світязь</h2>

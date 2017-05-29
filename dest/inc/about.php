@@ -1,7 +1,7 @@
 <section>
-    <div class="wrap container pt-40">
+    <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-7">
+            <div class="col-xs-12 col-sm-6 col-md-7">
                 <div class="box white">
                     <div class="box-header">
                         <h1>Про нас</h1>
@@ -18,13 +18,13 @@
 
                             <p>На території є <strong>альтанки, мангали</strong>. Можна <strong>купити дрова</strong> та домашні овочі і фрукти.</p>
 
-                            <p>Деталі про будинки, кімнати й умови проживання Ви знайдете в розділі <a href="http://svilake.com/homes">"Житло"</a>.</p>
+                            <p>Деталі про будинки, кімнати й умови проживання Ви знайдете в розділі <a href="/homes">"Житло"</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-xs-5">
+            <div class="col-xs-12 col-sm-6 col-md-5">
                 <div class="box white">
                     <div class="box-header box-header__blue">
                         <h2>Про Світязь</h2>
@@ -36,7 +36,7 @@
                                 Вода в ньому багата на <strong>срібло і гліцерин</strong>, має лікувальні властивості.</p>
                             <p>За останні роки відпочинку на Світязі надають перевагу не тільки українці, але й гості із <strong>Західної Європи</strong> та <strong>Білорусії</strong>.</p>
 
-                            <iframe width="431" height="242" src="https://www.youtube.com/embed/ALPD2ZF9bqk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            <iframe width="100%" height="242" src="https://www.youtube.com/embed/ALPD2ZF9bqk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

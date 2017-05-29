@@ -10,7 +10,7 @@
         </div>
 
         <div class="row pb-40 pt-10">
-            <div class="col-xs-6 pr-0">
+            <div class="photo-slider col-xs-12 col-sm-5 col-md-6 pr-0">
                 <div class="swiper-container swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" data-ng-repeat="img in model.hotel.images">
@@ -25,7 +25,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 pl-0">
+            <div class="info-section col-xs-12 col-sm-7 col-md-6 pl-0">
                 <div class="white pb-40">
                     <div class="props">
                         <div class="center" data-ng-repeat="prop in model.hotel.props track by $index">
@@ -48,7 +48,7 @@
         </div>
 
         <div class="row">
-            <div class="col-xs-3" data-ng-repeat="room in model.hotel.rooms">
+            <div class="col-xs-12 col-sm-6 col-md-3" data-ng-repeat="room in model.hotel.rooms">
                 <div class="box box-size-2 white">
                     <div class="box-header box-header__blue box-col">
                         <div>
@@ -63,7 +63,8 @@
                     </div>
 
                     <div class="box-content">
-                        <a href data-ng-link="['Room', {hotelId: model.id, roomId: room.id}]" data-ng-style="{'background-image':'url({{ room.img }})'}">
+                        <a href data-ng-link="['Room', {hotelId: model.id, roomId: room.id}]">
+                            <img data-ng-src="{{ room.img }}" alt="">
                             <span class="box-overlay center">
                                 <i class="icon icon-plus"></i>
                             </span>

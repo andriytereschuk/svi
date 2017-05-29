@@ -1,7 +1,7 @@
 <section>
     <div class="wrap container pt-40">
         <div class="row">
-            <div class="col-xs-5">
+            <div class="col-xs-12 col-md-5">
                 <div class="box white">
                     <div class="box-header">
                         <h1>Контакти</h1>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="col-xs-7">
+            <div class="col-xs-12 col-md-7">
                  <div class="box white box-size-4">
                     <div class="box-header box-header__blue">
                         <h2>Карта</h2>
