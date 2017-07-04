@@ -1,3 +1,8 @@
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://svilake.com" />
+    <meta property="og:image" content="http://svilake.com/images/svilake_logo_social.jpg" />
+    <meta property="og:site_name" content="SVILAKE" />
+
     <base href="http://localhost:3000/edsa-dev/svi/dest"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -56,6 +61,7 @@
                 </label>
                 <ul class="menu">
                     <li>
+                        <a href="/ru/homes">Жилье</a>
                         <a href onclick="return false;">Жилье</a>
                         <ul class="sub-menu">
                             <li><a href="/ru/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Д1</span></a></li>

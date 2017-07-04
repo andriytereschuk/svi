@@ -89,6 +89,23 @@ $blue: #3fb5de;
       line-height: 1;
       margin: 10px 0;
 
+      &:first-child {
+        padding-right: 0;
+
+
+        & + li {
+          margin-left: 0;
+        }
+
+        > a {
+          display: none;
+        }
+
+        a + a {
+            display: block;
+        }
+      }
+
       a {
         padding: 5px 10px;
         font-weight: 400;
@@ -100,23 +117,26 @@ $blue: #3fb5de;
 
   .icon-menu {
     color: #fff;
-    margin-top: 4px;
     font-size: 22px;
+    float: none;
+    padding: 5px 5px 0 5px;
   }
 
   .icon-close {
     display: none;
     color: #fff;
     font-size: 18px;
-    margin-top: 4px;
+    float: none;
+    padding: 3px 5px 0 6px;
   }
 
   #menu-check, #menu-check + label {
-    display: inline;
+    display: inline-block;
   }
 
   #menu-check {
     opacity: 0;
+    position: absolute;
   }
 
   #menu-check:checked + label {
@@ -133,8 +153,12 @@ $blue: #3fb5de;
     }
   }
 
-  .menu > li:hover > a:before {
+  .menu li:hover > a:before {
     display: none;
+  }
+
+  .menu > li:hover a + .sub-menu {
+      margin-bottom: -20px;
   }
 
   .sub-menu {
@@ -171,6 +195,12 @@ $blue: #3fb5de;
         margin-bottom: 20px;
       }
     }
+  }
+
+  .sub-menu:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   .photo-slider {
@@ -217,6 +247,37 @@ $blue: #3fb5de;
         font-size: 14px;
         letter-spacing: 0.4px;
       }
+    }
+  }
+
+  .routes {
+    margin-top: 0;
+
+    td {
+      display: block;
+      text-align: center;
+      border-top: none;
+
+      &.avto {
+        width: 100%;
+        border-top: 1px solid #e0e0e0;
+        padding-top: 30px;
+      }
+    }
+
+    tr:first-child td {
+      &.avto {
+        border-top: none;
+      }
+    }
+  }
+
+  .cost {
+    float: left;
+    margin-bottom: 20px;
+
+    & + td {
+      float: right;
     }
   }
 }

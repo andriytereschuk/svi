@@ -2,6 +2,9 @@
 	"images": [
 		"gallery/b1/b1-6.jpg",
 		"gallery/b1/b1.jpg",
+		"gallery/b1/b1-7.jpg",
+		"gallery/b1/s2.jpg",
+		"gallery/b1/s1.jpg",
 		"gallery/b1/b1-1.jpg",
 		"gallery/b1/b1-2.jpg",
 		"gallery/b1/b1-3.jpg",
@@ -26,13 +29,13 @@
 	"rooms": [
 		{
 			"id": "Double",
-			"price": 250,
+			"price": 300,
 			"count": "2",
 			"img": "gallery/b1/k10.jpg"
 		},
 		{
 			"id": "Triple",
-			"price": 350,
+			"price": 400,
 			"count": "3",
 			"img": "gallery/b1/k1-2.jpg"
 		},
@@ -49,7 +52,7 @@
 			"img": "gallery/b1/k12.jpg"
 		},
 		{
-			"id": "A4",
+			"id": "A-3-4",
 			"price": 800,
 			"count": "6-8",
 			"img": "gallery/b1/k14.jpg"

@@ -9,6 +9,7 @@ $main-color: #666;
 
 $blue2: #0099cc;
 $blue: #3fb5de;
+$red: #de0000;
 
 $orange: #ffc200;
 
@@ -98,6 +99,15 @@ header, section, footer {
 
         &:first-child {
             margin-left: 0;
+            padding-right: 15px;
+
+            & + li {
+                margin-left: 15px;
+            }
+
+            a + a {
+                display: none;
+            }
         }
 
         &:hover {
@@ -725,4 +735,41 @@ footer {
 
 .tel {
     display: none;
+}
+
+.routes {
+    margin-top: 50px;
+    width: 100%;
+
+    td {
+        border-top: 1px solid #e0e0e0;
+        padding: 10px 0;
+    }
+
+    tr:first-child td {
+         border-top: none;
+    }
+
+}
+
+.avto {
+    width: 20%;
+}
+
+.route {
+    text-align: center;
+
+    span {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    strong {
+        color: $red;
+        font-weight: 400;
+    }
+}
+
+.cost {
+    font-weight: 400;
 }

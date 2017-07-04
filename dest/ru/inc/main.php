@@ -29,7 +29,7 @@
                                 </div>
 
                                 <div class="align-right">
-                                    <div>Цена: <b>250 грн</b></div>
+                                    <div>Цена: <b>300 грн</b></div>
                                     <div>Кол: <b>2 чол</b></div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="align-right">
-                                    <div>Цена: <b>350 грн</b></div>
+                                    <div>Цена: <b>400 грн</b></div>
                                     <div>Кол: <b>2-3 чол</b></div>
                                 </div>
                             </div>
@@ -100,7 +100,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Дом: <b>1</b></div>
-                                    <div>Комната: <b>A4</b></div>
+                                    <div>Комнаты: <b>A-3-4</b></div>
                                 </div>
 
                                 <div class="align-right">

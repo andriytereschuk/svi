@@ -30,25 +30,25 @@
 		},
 		{
 			"id": 2,
-			"price": 220,
+			"price": 200,
 			"count": "2",
 			"img": "gallery/b4/k2.jpg"
 		},
 		{
 			"id": 3,
-			"price": 350,
+			"price": 300,
 			"count": "3",
 			"img": "gallery/b4/k3.jpg"
 		},
 		{
 			"id": 4,
-			"price": 350,
+			"price": 300,
 			"count": "3",
 			"img": "gallery/b4/k4.jpg"
 		},
 		{
 			"id": 5,
-			"price": 450,
+			"price": 400,
 			"count": "4-5",
 			"img": "gallery/b4/k5.jpg"
 		}

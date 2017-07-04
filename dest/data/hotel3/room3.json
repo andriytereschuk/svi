@@ -1,8 +1,7 @@
 {
 	"price": 220,
 	"images": [
-		"gallery/b3/k3.jpg",
-		"gallery/b3/k3-1.jpg"
+		"gallery/b3/k3.jpg"
 	],
 	"props": [
 		"doubleBed",
