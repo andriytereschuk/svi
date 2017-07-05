@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic);
-
 body {
     color: #666;
     background-color: #eee;
@@ -30,6 +28,10 @@ b, strong {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
+}
+
+.header-complex h1 {
+    font-weight: 300;
 }
 
 .icon {

@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12 col-md-10">
                 <div class="box white">
-                    <div class="box-header">
-                        <h1>Експрес-Бусік Львів - Шацькі озера (Світязь, Гряда, Медик, Пульмо)</h1>
+                    <div class="box-header header-complex">
+                        <h1>Експрес-Бусік <strong>Львів - Шацькі озера (Світязь, Гряда, Медик, Пульмо)</strong></h1>
                     </div>
 
                     <div class="box-content">
@@ -28,8 +28,8 @@
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-6">
-                                <div class="info pr-0">
-                                    <img class="mt-40" src="images/multivan.png" alt="">
+                                <div class="info">
+                                    <img class="mt-40" src="gallery/bus/shatsk1.jpg" alt="">
                                 </div>
                             </div>
                         </div>

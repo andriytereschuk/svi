@@ -110,7 +110,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="/homes/1/rooms/A4">
+                                <a href="/homes/1/rooms/A-3-4">
                                     <img src="gallery/b1/k14.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -131,7 +131,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="/routes">
+                                <a href="/bus-ekspres-lviv-shatski-ozera">
                                     <img class="mt-10" src="images/multivan.png" alt="">
                                     <span class="bus-route"><span>Львів - Шацьк</span> <span>Шацьк - Львів</span></span>
                                     <span class="box-overlay center">

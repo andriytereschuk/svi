@@ -1,10 +1,10 @@
 <section>
     <div class="wrap container pt-40 xs-pt-20">
         <div class="row">
-            <div class="col-xs-12 col-md-8">
+            <div class="col-xs-12 col-md-9">
                 <div class="box white">
-                    <div class="box-header">
-                        <h1>Автобус-Експрес Рівне - Шацькі озера</h1>
+                    <div class="box-header header-complex">
+                        <h1>Автобус-Експрес <strong>Рівне - Шацькі озера</strong></h1>
                     </div>
 
                     <div class="box-content">

@@ -10,7 +10,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/homes/1">
+                                <a href="/ru/homes/1">
                                     <img src="gallery/b1/b1-6.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -35,7 +35,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/homes/1/rooms/Double">
+                                <a href="/ru/homes/1/rooms/Double">
                                     <img src="gallery/b1/k10.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -60,7 +60,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/homes/2/rooms/1">
+                                <a href="/ru/homes/2/rooms/1">
                                     <img src="gallery/b2/k1.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -85,7 +85,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/homes/1/rooms/A1">
+                                <a href="/ru/homes/1/rooms/A1">
                                     <img src="gallery/b1/k11.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -110,7 +110,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/homes/1/rooms/A4">
+                                <a href="/ru/homes/1/rooms/A-3-4">
                                     <img src="gallery/b1/k14.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -131,7 +131,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/routes">
+                                <a href="/ru/routes">
                                     <img class="mt-10" src="images/multivan.png" alt="">
                                     <span class="bus-route"><span>Львов - Шацк</span> <span>Шацк - Львов</span></span>
                                     <span class="box-overlay center">
@@ -149,7 +149,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="http://svilake.com/ru/about-svilake" class="hidden middle-xs center-xs video-wrap">
+                                <a href="/ru/about-svilake" class="hidden middle-xs center-xs video-wrap">
                                     <video id="video" class="video" loop autoplay>
                                         <source src="video/v.webm" type='video/webm' />
                                         <source src="video/v.mp4" type='video/mp4' />
