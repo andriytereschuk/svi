@@ -21,7 +21,7 @@
                                                 </a>
                                             </td>
                                             <td class="route">
-                                                <span>експрес-бус<span><br><strong> Львів - Шацьк, Шацьк - Львів</strong></span>
+                                                <span>експрес-бус<span><br><strong> Львів - Шацьк - Львів</strong></span>
                                             </td>
                                             <td class="cost">
                                                 150 грн/місце
@@ -36,7 +36,7 @@
                                                 </a>
                                             </td>
                                             <td class="route">
-                                                <span>автобус-експрес<span><br><strong> Рівне - Шацьк, Шацьк - Рівне</strong></span>
+                                                <span>автобус-експрес<span><br><strong> Рівне - Шацьк - Рівне</strong></span>
                                             </td>
                                             <td class="cost">
                                                 150 грн/місце
@@ -51,7 +51,7 @@
                                                 </a>
                                             </td>
                                             <td class="route">
-                                                <span>експрес-бус<span><br><strong> Луцьк - Шацьк, Шацьк - Луцьк</strong></span>
+                                                <span>експрес-бус<span><br><strong> Луцьк - Шацьк - Луцьк</strong></span>
                                             </td>
                                             <td class="cost">
                                                 110 грн/місце
@@ -66,7 +66,7 @@
                                                 </a>
                                             </td>
                                             <td class="route">
-                                                <span>експрес-бус<span><br><strong> Червоноград - Шацьк, Шацьк - Червоноград</strong></span>
+                                                <span>експрес-бус<span><br><strong> Червоноград - Шацьк - Червоноград</strong></span>
                                             </td>
                                             <td class="cost">
                                                 100 грн/місце

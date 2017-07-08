@@ -25,7 +25,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Дом: <b>1</b></div>
-                                    <div>Комната: <b>Double</b></div>
+                                    <div>Номер: <b>Double</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -50,7 +50,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Дом: <b>2</b></div>
-                                    <div>Комната: <b>1</b></div>
+                                    <div>Номер: <b>1</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -75,7 +75,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Дом: <b>1</b></div>
-                                    <div>Комната: <b>A1</b></div>
+                                    <div>Номер: <b>A1</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -100,7 +100,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Дом: <b>1</b></div>
-                                    <div>Комнаты: <b>A-3-4</b></div>
+                                    <div>Номер: <b>A-3-4</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -131,7 +131,7 @@
                             </div>
 
                             <div class="box-content">
-                                <a href="/ru/routes">
+                                <a href="/ru/perevozki-ekspress-lvov-shatskie-ozera">
                                     <img class="mt-10" src="images/multivan.png" alt="">
                                     <span class="bus-route"><span>Львов - Шацк</span> <span>Шацк - Львов</span></span>
                                     <span class="box-overlay center">

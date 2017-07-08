@@ -25,7 +25,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Будинок: <b>1</b></div>
-                                    <div>Кімната: <b>Double</b></div>
+                                    <div>Номер: <b>Double</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -50,7 +50,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Будинок: <b>2</b></div>
-                                    <div>Кімната: <b>1</b></div>
+                                    <div>Номер: <b>1</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -75,7 +75,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Будинок: <b>1</b></div>
-                                    <div>Кімната: <b>A1</b></div>
+                                    <div>Номер: <b>A1</b></div>
                                 </div>
 
                                 <div class="align-right">
@@ -100,7 +100,7 @@
                             <div class="box-header box-header__blue box-col">
                                 <div>
                                     <div>Будинок: <b>1</b></div>
-                                    <div>Кімнати: <b>A-3-4</b></div>
+                                    <div>Номер: <b>A-3-4</b></div>
                                 </div>
 
                                 <div class="align-right">

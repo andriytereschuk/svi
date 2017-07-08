@@ -3,7 +3,7 @@
     <meta property="og:image" content="http://svilake.com/images/svilake_logo_social.jpg" />
     <meta property="og:site_name" content="SVILAKE" />
 
-    <base href="http://localhost:3000/edsa-dev/svi/dest"/>
+    <base href="http://localhost:3000/edsa-dev/svi/dest/ru"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />

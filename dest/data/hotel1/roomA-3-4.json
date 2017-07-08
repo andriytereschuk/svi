@@ -9,10 +9,9 @@
 		"gallery/b1/k15-2.jpg"
 	],
 	"props": [
-		"doubleBed2",
-		"tb",
-		"doubleBed2",
-		"tb",
+		"rooms2",
+		"doubleBed4",
+		"tv",
 		"cupboard",
 		"chairs"
 	]

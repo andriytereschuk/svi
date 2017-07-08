@@ -2,25 +2,21 @@
 	{
 		"id": 1,
 		"img": "gallery/b1/b1-6.jpg",
-		"roomsCount": 0,
 		"price": 300
 	},
 	{
 		"id": 2,
 		"img": "gallery/b2/b2.jpg",
-		"roomsCount": 2,
 		"price": 400
 	},
 	{
 		"id": 3,
 		"img": "gallery/b3/b3.jpg",
-		"roomsCount": 4,
 		"price": 250
 	},
 	{
 		"id": 4,
 		"img": "gallery/b4/b4.jpg",
-		"roomsCount": 5,
 		"price": 200
 	}
 ]
