@@ -355,12 +355,17 @@ header > .wrap > *, section > .wrap > *, footer > .wrap > * {
 .bus-route {
     display: -ms-flexbox;
     display: flex;
-    padding: 0 20px;
+    padding: 5px 20px;
     font-size: 14px;
     -ms-flex-pack: justify;
         justify-content: space-between;
-    color: #666;
+    color: #dcdcdc;
     font-weight: 400;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #map {
@@ -733,4 +738,26 @@ footer {
 
 .cost {
     font-weight: 400;
+}
+
+.slider-beach {
+    height: 100%;
+}
+
+.slider-beach .swiper-slide {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider-beach .slide-beach-1 {
+    background-image: url('../gallery/beach/img1.jpg');
+}
+
+.slider-beach .slide-beach-2 {
+    background-image: url('../gallery/beach/img2.jpg');
+}
+
+.slider-beach .slide-beach-3 {
+    background-image: url('../gallery/beach/img3.jpg');
 }

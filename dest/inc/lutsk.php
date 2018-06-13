@@ -22,7 +22,7 @@
                                     <ul>
                                         <li><b>Авто:</b> Mersedes Sprinter 518, Volkswagen LT 35, Fiat Ducato MAXI</li>
                                         <li><b>Час в дорозі:</b> 2,5 год</li>
-                                        <li><b>Ціна:</b> 110 грн</li>
+                                        <li><b>Ціна:</b> 150 грн</li>
                                         <li><b>Телефони:</b> <span><b>(099)</b> 262 4841, <b>(093)</b> 880 1200</span></li>
                                     </ul>
 

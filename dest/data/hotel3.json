@@ -22,18 +22,18 @@
 		{
 			"id": 1,
 			"price": 300,
-			"count": "2-3",
+			"count": "2",
 			"img": "gallery/b3/k1.jpg"
 		},
 		{
 			"id": 2,
 			"price": 300,
-			"count": "2-3",
+			"count": "2",
 			"img": "gallery/b3/k2.jpg"
 		},
 		{
 			"id": 3,
-			"price": 250,
+			"price": 300,
 			"count": "2",
 			"img": "gallery/b3/k3.jpg"
 		},

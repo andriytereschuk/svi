@@ -372,11 +372,16 @@ header, section, footer {
 
 .bus-route {
     display: flex;
-    padding: 0 20px;
+    padding: 5px 20px;
     font-size: 14px;
     justify-content: space-between;
-    color: $main-color;
+    color: #dcdcdc;
     font-weight: 400;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #map {
@@ -778,4 +783,25 @@ footer {
 
 .cost {
     font-weight: 400;
+}
+
+.slider-beach {
+    height: 100%;
+    .swiper-slide {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .slide-beach-1 {
+        background-image: url('../gallery/beach/img1.jpg');
+    }
+
+    .slide-beach-2 {
+        background-image: url('../gallery/beach/img2.jpg');
+    }
+
+    .slide-beach-3 {
+        background-image: url('../gallery/beach/img3.jpg');
+    }
 }

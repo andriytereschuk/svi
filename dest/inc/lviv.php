@@ -19,29 +19,22 @@
                                     </div>
 
                                    <ul>
-                                       <li><b>Мікроавтобуси:</b> <span>Volkswagen T5, Mersedes Sprinter</span></li>
-                                       <li><b>Комфорт:</b> <span>Кондиціонер</span></li>
+                                       <li><b>Мікроавтобуси:</b> <span>IVECO MAGO, Mersedes Sprinter</span></li>
+                                       <li><b>Комфорт:</b> <span> розкладні крісла, телевізор</span></li>
                                        <li><b>Час в дорозі:</b> <span>3 - 3:30 годин</span></li>
-                                       <li><b>Ціна:</b> <span>150 грн</span></li>
+                                       <li>
+                                           <b>Ціни</b><br>
+                                           <b>170 грн:</b> <i> на Шацьк, Світязь, пансіонат "Шацькі озера", Гряда</i> <br>
+                                           <b>200 грн:</b> <i>на Медик, "Лісова Пісня", Мельники, Пульмо</i>
+                                        </li>
                                        <li><b>Телефони:</b> <span><b>(097)</b> 654 1951, <b>(063)</b> 795 2131</span></li>
                                    </ul>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-md-6">
                                 <div class="info">
-                                    <img class="mt-40" src="gallery/bus/shatsk1.jpg" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="info">
-                                   <ul>
-                                       <li><b>Розвезення:</b> <span>Шацьк, Світязь, пансіонат "Шацькі озера" <b>(без доплати)</b></span>
-                                            <br>
-                                            <span style="padding-left:85px">Гряда, Медик, "Лісова Пісня", Мельники, Пульмо <b>(за додаткову плату)</b></span>
-                                       </li>
-                                   </ul>
+                                    <img src="gallery/bus/shatsk1.jpg" alt="">
+                                    <img class="mt-20" src="gallery/bus/shatsk2.jpg" alt="">
                                 </div>
                             </div>
                         </div>

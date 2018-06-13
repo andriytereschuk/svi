@@ -5,7 +5,6 @@
 	],
 	"props": [
 		"doubleBed",
-		"halfBed",
 		"table",
 		"nightstand",
 		"chair"

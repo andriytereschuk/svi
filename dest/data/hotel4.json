@@ -30,7 +30,7 @@
 		},
 		{
 			"id": 2,
-			"price": 200,
+			"price": 250,
 			"count": "2",
 			"img": "gallery/b4/k2.jpg"
 		},
@@ -48,7 +48,7 @@
 		},
 		{
 			"id": 5,
-			"price": 400,
+			"price": 450,
 			"count": "4-5",
 			"img": "gallery/b4/k5.jpg"
 		}

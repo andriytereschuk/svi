@@ -4,7 +4,8 @@
             <div class="col-xs-12">
                 <ul class="breadcrumbs">
                     <li><a href data-ng-link="['Hotels']" translate="builds"></a><i class="icon icon-next"></i></li>
-                    <li><a href data-ng-link="['Hotel', {id: model.hotelId}]">{{ 'build' | translate }} {{ model.hotelId }}</a><i class="icon icon-next"></i></li>
+                    <li ng-hide="model.hotelId == 4"><a href data-ng-link="['Hotel', {id: model.hotelId}]">{{ 'build' | translate }} {{ model.hotelId }}</a><i class="icon icon-next"></i></li>
+                    <li ng-if="model.hotelId == 4"><a href data-ng-link="['Hotel', {id: model.hotelId}]">У БАБУСІ</a><i class="icon icon-next"></i></li>
                     <li><span>{{ 'room' | translate}} {{ model.id }}</span></li>
                 </ul>
             </div>

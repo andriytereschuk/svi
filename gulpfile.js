@@ -31,8 +31,7 @@ gulp.task('css', function() {
 gulp.task('default', ['css'], function() {
 
     browserSync.init({
-        proxy: 'http://127.0.0.1/edsa-dev/svi/'
-        // proxy: 'http://svi.com/'
+        proxy: 'http://localhost:8888'
     });
 
     gulp.watch('./build/scss/*.scss', ['css']);

@@ -14,7 +14,9 @@
                 <div class="box box-size-4 white">
                     <div class="box-header box-col">
                         <div>
-                            <div>{{ 'build' | translate }}: <b>{{ hotel.id }}</b></div>
+                            <div ng-hide="hotel.id == 4">{{ 'build' | translate }}: <b>{{ hotel.id }}</b></div>
+                            <div ng-if="hotel.id == 4"><b>"У БАБУСІ"</b> (Набережна, 29)</div>
+                            <div data-ng-if="hotel.roomsCount">{{ 'rooms' | translate }}: <b>{{ hotel.roomsCount }}</b></div>
                         </div>
                         <div>
                             <div>{{ 'prices' | translate }}: <b>{{ 'from' | translate }} {{ hotel.price }} {{ 'curency' | translate }}</b></div>

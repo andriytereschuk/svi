@@ -34,6 +34,10 @@ $blue: #3fb5de;
   .swiper {
     height: 260px;
   }
+
+  .slider-beach {
+    height: 250px;
+  }
 }
 
 @media (max-width: $sm) {
@@ -303,5 +307,9 @@ $blue: #3fb5de;
     &__curency {
       font-size: 20px;
     }
+  }
+
+  .slider-beach {
+    height: 200px;
   }
 }

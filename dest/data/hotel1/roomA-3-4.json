@@ -1,18 +1,35 @@
 {
-	"price": 800,
+
+	"price": 900,
+
 	"images": [
+
 		"gallery/b1/k14.jpg",
+
 		"gallery/b1/k14-1.jpg",
+
 		"gallery/b1/k14-2.jpg",
+
 		"gallery/b1/k15.jpg",
+
 		"gallery/b1/k15-1.jpg",
+
 		"gallery/b1/k15-2.jpg"
+
 	],
+
 	"props": [
+
 		"rooms2",
+
 		"doubleBed4",
+
 		"tv",
+
 		"cupboard",
+
 		"chairs"
+
 	]
+
 }

@@ -4,7 +4,8 @@
             <div class="col-xs-12">
                 <ul class="breadcrumbs">
                     <li><a href data-ng-link="['Hotels']" translate="builds"></a><i class="icon icon-next"></i></li>
-                    <li><span>{{ 'build' | translate}} {{ model.id }}</span></li>
+                    <li ng-hide="model.id == 4"><span>{{ 'build' | translate}} {{ model.id }}</span></li>
+                    <li ng-if="model.id == 4"><span>У БАБУСІ</span></li>
                 </ul>
             </div>
         </div>
@@ -35,7 +36,8 @@
                     </div>
 
                     <div class="desc">
-                        <h1>{{ 'build' | translate }} {{model.id}}</h1>
+                        <h1 ng-hide="model.id == 4">{{ 'build' | translate }} {{model.id}}</h1>
+                        <h1 ng-if="model.id == 4">"У БАБУСІ"</h1>
                         <div translate="descHotel{{model.id}}"></div>
                         <br>
                         <h2 translate="atractions"></h2>

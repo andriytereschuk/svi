@@ -79,7 +79,7 @@
                                 </div>
 
                                 <div class="align-right">
-                                    <div>Цена: <b>450 грн</b></div>
+                                    <div>Цена: <b>500 грн</b></div>
                                     <div>Кол: <b>4 чол</b></div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                 </div>
 
                                 <div class="align-right">
-                                    <div>Цена: <b>800 грн</b></div>
+                                    <div>Цена: <b>900 грн</b></div>
                                     <div>Кол: <b>6-8 чол</b></div>
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
 
                             <div class="box-content">
                                 <a href="/ru/perevozki-ekspress-lvov-shatskie-ozera">
-                                    <img class="mt-10" src="images/multivan.png" alt="">
+                                    <img src="images/bus1.jpg" alt="">
                                     <span class="bus-route"><span>Львов - Шацк</span> <span>Шацк - Львов</span></span>
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
@@ -150,26 +150,11 @@
 
                             <div class="box-content">
                                 <a href="/ru/about-svilake" class="hidden middle-xs center-xs video-wrap">
-                                    <video id="video" class="video" loop autoplay>
-                                        <source src="video/v.webm" type='video/webm' />
-                                        <source src="video/v.mp4" type='video/mp4' />
-                                        <source src="video/v.ogv" type='video/ogg' />
-                                    </video>
+                                    <img src="http://svilake.com/images/poster.jpg" alt="">
                                     <span class="box-overlay center">
                                         <i class="icon icon-plus"></i>
                                     </span>
                                 </a>
-
-                                <script>
-                                    function ready() {
-                                        setTimeout(function() {
-                                            var elem = document.getElementById('video');
-                                            elem.setAttribute("poster", "images/poster.jpg");
-                                        }, 2000);
-                                    }
-
-                                    document.addEventListener("DOMContentLoaded", ready);
-                                </script>
                             </div>
                         </div>
                     </div>
@@ -183,6 +168,12 @@
                             <div class="box-content">
                                 <?php include_once('inc/map.php'); ?>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="box box-size-2 white">
+                            <?php include_once('../inc/slider.php'); ?>
                         </div>
                     </div>
                 </div>

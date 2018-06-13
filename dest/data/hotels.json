@@ -12,10 +12,10 @@
 	{
 		"id": 3,
 		"img": "gallery/b3/b3.jpg",
-		"price": 250
+		"price": 300
 	},
 	{
-		"id": 4,
+		"id": "4",
 		"img": "gallery/b4/b4.jpg",
 		"price": 200
 	}

@@ -24,7 +24,7 @@
                                                 <span>експрес-бус<span><br><strong> Львів - Шацьк - Львів</strong></span>
                                             </td>
                                             <td class="cost">
-                                                150 грн/місце
+                                                від 170 грн/місце
                                             </td>
                                             <td><a href="/bus-ekspres-lviv-shatski-ozera">детальніше</a></td>
                                         </tr>
@@ -39,7 +39,7 @@
                                                 <span>автобус-експрес<span><br><strong> Рівне - Шацьк - Рівне</strong></span>
                                             </td>
                                             <td class="cost">
-                                                150 грн/місце
+                                                від 200 грн/місце
                                             </td>
                                             <td><a href="/avtobus-ekspres-rivne-shatsk">детальніше</a></td>
                                         </tr>
@@ -54,7 +54,7 @@
                                                 <span>експрес-бус<span><br><strong> Луцьк - Шацьк - Луцьк</strong></span>
                                             </td>
                                             <td class="cost">
-                                                110 грн/місце
+                                                від 150 грн/місце
                                             </td>
                                             <td><a href="/bus-ekspres-lutsk-shatsk">детальніше</a></td>
                                         </tr>
@@ -69,7 +69,7 @@
                                                 <span>експрес-бус<span><br><strong> Червоноград - Шацьк - Червоноград</strong></span>
                                             </td>
                                             <td class="cost">
-                                                100 грн/місце
+                                                від 120 грн/місце
                                             </td>
                                             <td><a href="/bus-ekspres-chervonograd-shatsk">детальніше</a></td>
                                         </tr>

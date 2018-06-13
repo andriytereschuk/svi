@@ -1,0 +1,19 @@
+{
+	"price": 800,
+	"images": [
+		"gallery/b1/k14.jpg",
+		"gallery/b1/k14-1.jpg",
+		"gallery/b1/k14-2.jpg",
+		"gallery/b1/k15.jpg",
+		"gallery/b1/k15-1.jpg",
+		"gallery/b1/k15-2.jpg"
+	],
+	"props": [
+		"doubleBed2",
+		"tb",
+		"doubleBed2",
+		"tb",
+		"cupboard",
+		"chairs"
+	]
+}

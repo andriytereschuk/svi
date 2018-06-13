@@ -24,7 +24,7 @@
                                                 <span>экспресс-бус<span><br><strong> Львов - Шацк - Львов</strong></span>
                                             </td>
                                             <td class="cost">
-                                                150 грн/место
+                                                от 170 грн/место
                                             </td>
                                             <td><a href="/ru/perevozki-ekspres-lvov-shatskie-ozera">подробнее</a></td>
                                         </tr>
@@ -39,7 +39,7 @@
                                                 <span>автобус-экспресс<span><br><strong> Ровно - Шацк - Ровно</strong></span>
                                             </td>
                                             <td class="cost">
-                                                150 грн/место
+                                                от 200 грн/место
                                             </td>
                                             <td><a href="/ru/perevozki-ekspress-rovno-shatsk">подробнее</a></td>
                                         </tr>
@@ -54,7 +54,7 @@
                                                 <span>экспресс-бус<span><br><strong> Луцк - Шацк - Луцк</strong></span>
                                             </td>
                                             <td class="cost">
-                                                110 грн/место
+                                                от 150 грн/место
                                             </td>
                                             <td><a href="/ru/perevozki-ekspress-lutsk-shatsk">подробнее</a></td>
                                         </tr>
@@ -69,7 +69,7 @@
                                                 <span>экспресс-бус<span><br><strong> Червоноград - Шацк - Червоноград</strong></span>
                                             </td>
                                             <td class="cost">
-                                                100 грн/место
+                                                от 120 грн/место
                                             </td>
                                             <td><a href="/ru/perevozki-ekspress-chervonograd-shatsk">подробнее</a></td>
                                         </tr>

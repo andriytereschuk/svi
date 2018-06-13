@@ -4,7 +4,7 @@
     <meta property="og:site_name" content="SVILAKE" />
 
 
-    <base href="http://localhost:3000/edsa-dev/svi/dest/"/>
+    <base href="/"/>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
@@ -68,7 +68,7 @@
                             <li><a href="/homes/1"><img src="gallery/hotels/b1-2.jpg" alt=""><span>Б1</span></a></li>
                             <li><a href="/homes/2"><img src="gallery/hotels/b2.jpg" alt=""><span>Б2</span></a></li>
                             <li><a href="/homes/3"><img src="gallery/hotels/b3.jpg" alt=""><span>Б3</span></a></li>
-                            <li><a href="/homes/4"><img src="gallery/hotels/b4.jpg" alt=""><span>Б4</span></a></li>
+                            <li><a href="/homes/4"><img src="gallery/hotels/b4.jpg" alt=""><span>Д</span></a></li>
                         </ul>
                     </li>
                     <li><a href="/about-svilake">Про нас</a></li>

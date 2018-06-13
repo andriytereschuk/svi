@@ -22,7 +22,7 @@
                                        <li><b>Автобусы:</b> <span>SETRA 309 Top class, Мersedes SPRINTER</span></li>
                                        <li><b>Комфорт:</b> <span>Кондиционер</span></li>
                                        <li><b>Время в пути:</b> <span>4 часов</span></li>
-                                       <li><b>Цена:</b> <span>150 грн</span></li>
+                                       <li><b>Цена:</b> <span>200 грн</span></li>
                                        <li><b>Телефоны:</b> <span><b>(097)</b> 951-90-96, <b>(093)</b> 409-70-38</span></li>
                                         <li>Операторы пработают из <b>8:00 по 22:00</b></li
                                    </ul>
